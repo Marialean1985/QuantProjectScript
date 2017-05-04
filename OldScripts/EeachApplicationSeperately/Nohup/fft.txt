@@ -1,0 +1,115 @@
+TOOBIG
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Jan 29 2017 20:03:36
+gem5 executing on falcon2, pid 5758
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/fft/TOOBIGC2 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=1MB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/src/fft '--options= 262144 '
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Jan 29 2017 20:03:36
+gem5 executing on falcon2, pid 5760
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/fft/TOOBIGC4 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=4MB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/src/fft '--options= 262144 '
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Jan 29 2017 20:03:36
+gem5 executing on falcon2, pid 5757
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/fft/TOOBIGC1 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=512kB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/src/fft '--options= 262144 '
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Jan 29 2017 20:03:36
+gem5 executing on falcon2, pid 5761
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/fft/TOOBIGC5 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=8MB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/src/fft '--options= 262144 '
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Jan 29 2017 20:03:36
+gem5 executing on falcon2, pid 5759
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/fft/TOOBIGC3 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=2MB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/src/fft '--options= 262144 '
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Jan 29 2017 20:03:36
+gem5 executing on falcon2, pid 5762
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/fft/TOOBIGC6 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=16MB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/src/fft '--options= 262144 '
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+0: system.remote_gdb.listener: listening for remote gdb #0 on port 7000
+0: system.remote_gdb.listener: listening for remote gdb #0 on port 7001
+0: system.remote_gdb.listener: listening for remote gdb #0 on port 7002
+0: system.remote_gdb.listener: listening for remote gdb #0 on port 7003
+0: system.remote_gdb.listener: listening for remote gdb #0 on port 7004
+0: system.remote_gdb.listener: listening for remote gdb #0 on port 7005
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/src/fft'
+info: Increasing stack size by one page.
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/src/fft'
+info: Increasing stack size by one page.
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/src/fft'
+info: Increasing stack size by one page.
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/src/fft'
+info: Increasing stack size by one page.
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/src/fft'
+info: Increasing stack size by one page.
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/src/fft'
+info: Increasing stack size by one page.
+warnwarn: : ignoring syscall ignoring syscall accessaccess(...)(...)
+
+warn: ignoring syscall access(...)
+Exiting @ tick 349186072500 because target called exit()
+Exiting @ tick 348998629000 because target called exit()
+Exiting @ tick 348998629000 because target called exit()
+Exiting @ tick 428944484000 because target called exit()
+Exiting @ tick 614417997500 because target called exit()
+Exiting @ tick 652983322500 because target called exit()

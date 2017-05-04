@@ -1,0 +1,7 @@
+cd /bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications
+for f in */
+do
+	echo ${f}
+	mkdir ${f}/src/BIG32kB1MB2MB32BLOCKSIZE  ${f}/src/BIG32KB1MB2MB64BLOCKSIZE ${f}/src/BIG32KB512KB1MB32BLOCKSIZE ${f}/src/BIG32KB512KB1MB64BLOCKSIZE
+
+done

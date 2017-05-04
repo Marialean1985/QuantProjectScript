@@ -1,0 +1,161 @@
+TOOBIG
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Jan 29 2017 20:20:09
+gem5 executing on falcon5, pid 14553
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/jpeg/TOOBIGC3 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=2MB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/src/jpeg '--options=/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/jpeg/test.data/input/5.rgb  '
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Jan 29 2017 20:20:09
+gem5 executing on falcon5, pid 14556
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/jpeg/TOOBIGC6 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=16MB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/src/jpeg '--options=/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/jpeg/test.data/input/5.rgb '
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Jan 29 2017 20:20:09
+gem5 executing on falcon5, pid 14557
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/jpeg/TOOBIGC7 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=32MB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/src/jpeg '--options=/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/jpeg/test.data/input/5.rgb  '
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Jan 29 2017 20:20:09
+gem5 executing on falcon5, pid 14558
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/jpeg/TOOBIGC8 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=64MB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/src/jpeg '--options=/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/jpeg/test.data/input/5.rgb '
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Jan 29 2017 20:20:09
+gem5 executing on falcon5, pid 14552
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/jpeg/TOOBIGC2 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=1MB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/src/jpeg '--options=/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/jpeg/test.data/input/5.rgb '
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Jan 29 2017 20:20:09
+gem5 executing on falcon5, pid 14554
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/jpeg/TOOBIGC4 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=4MB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/src/jpeg '--options=/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/jpeg/test.data/input/5.rgb '
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Jan 29 2017 20:20:09
+gem5 executing on falcon5, pid 14555
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/jpeg/TOOBIGC5 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=8MB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/src/jpeg '--options=/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/jpeg/test.data/input/5.rgb  '
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Jan 29 2017 20:20:09
+gem5 executing on falcon5, pid 14551
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/jpeg/TOOBIGC1 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=512kB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/src/jpeg '--options=/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/jpeg/test.data/input/5.rgb  '
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+0: system.remote_gdb.listener: listening for remote gdb #0 on port 7000
+0: system.remote_gdb.listener: listening for remote gdb #0 on port 7001
+0: system.remote_gdb.listener: listening for remote gdb #0 on port 7002
+0: system.remote_gdb.listener: listening for remote gdb #0 on port 7003
+0: system.remote_gdb.listener: listening for remote gdb #0 on port 7004
+0: system.remote_gdb.listener: listening for remote gdb #0 on port 7005
+0: system.remote_gdb.listener: listening for remote gdb #0 on port 7006
+0: system.remote_gdb.listener: listening for remote gdb #0 on port 7007
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+warn: x86 cpuid family 0x0000: unimplemented function 7
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+warn: x86 cpuid family 0x0000: unimplemented function 7
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+warn: x86 cpuid family 0x0000: unimplemented function 7
+warn: x86 cpuid family 0x0000: unimplemented function 7
+warn: x86 cpuid family 0x0000: unimplemented function 7
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/src/jpeg'
+info: Increasing stack size by one page.
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/src/jpeg'
+info: Increasing stack size by one page.
+warn: x86 cpuid family 0x0000: unimplemented function 7
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/src/jpeg'
+info: Increasing stack size by one page.
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/src/jpeg'
+info: Increasing stack size by one page.
+warn: x86 cpuid family 0x0000: unimplemented function 7
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/src/jpeg'
+info: Increasing stack size by one page.
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/src/jpeg'
+info: Increasing stack size by one page.
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/src/jpeg'
+info: Increasing stack size by one page.
+warn: x86 cpuid family 0x0000: unimplemented function 7
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/src/jpeg'
+info: Increasing stack size by one page.
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+Exiting @ tick 94521222500 because target called exit()
+Exiting @ tick 90767121500 because target called exit()
+Exiting @ tick 90767121500 because target called exit()
+Exiting @ tick 90767121500 because target called exit()
+Exiting @ tick 90767121500 because target called exit()
+Exiting @ tick 94667613000 because target called exit()
+Exiting @ tick 90767303500 because target called exit()
+Exiting @ tick 90767121500 because target called exit()

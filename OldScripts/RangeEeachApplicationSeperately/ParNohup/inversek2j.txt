@@ -1,0 +1,805 @@
+./Common.sh: line 3: /net/bigtemp/ml2au/AxBenchResults/Multiple16: Is a directory
+
+options1t;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data
+options2t;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data
+/bigtemp/ml2au/AxBenchResults/binNoOutIO/inversek2j;/bigtemp/ml2au/AxBenchResults/binNoOutIO/inversek2j;/bigtemp/ml2au/AxBenchResults/binNoOutIO/inversek2j;/bigtemp/ml2au/AxBenchResults/binNoOutIO/inversek2j;/bigtemp/ml2au/AxBenchResults/binNoOutIO/inversek2j;/bigtemp/ml2au/AxBenchResults/binNoOutIO/inversek2j;/bigtemp/ml2au/AxBenchResults/binNoOutIO/inversek2j;/bigtemp/ml2au/AxBenchResults/binNoOutIO/inversek2j
+1
+--cpu-type=detailed --caches --l2cache  --l1d_size=32kB --l2_size=512kB  --cacheline_size=64 --mem-size=4GB --num-cpus=8
+2
+--cpu-type=detailed --caches --l2cache  --l1d_size=32kB --l2_size=1MB  --cacheline_size=64  --mem-size=4GB --num-cpus=8
+3
+--cpu-type=detailed --caches --l2cache  --l1d_size=32kB --l2_size=2MB  --cacheline_size=64  --mem-size=4GB --num-cpus=8
+4
+--cpu-type=detailed --caches --l2cache  --l1d_size=32kB --l2_size=4MB  --cacheline_size=64  --mem-size=4GB --num-cpus=8
+5
+--cpu-type=detailed --caches --l2cache  --l1d_size=32kB --l2_size=8MB  --cacheline_size=64  --mem-size=4GB --num-cpus=8
+6
+--cpu-type=detailed --caches --l2cache  --l1d_size=32kB --l2_size=16MB  --cacheline_size=64  --mem-size=4GB --num-cpus=8
+7
+--cpu-type=detailed --caches --l2cache  --l1d_size=32kB --l2_size=32MB  --cacheline_size=64  --mem-size=4GB --num-cpus=8
+8
+--cpu-type=detailed --caches --l2cache  --l1d_size=32kB --l2_size=64MB  --cacheline_size=64  --mem-size=4GB --num-cpus=8
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb 11 2017 09:42:22
+gem5 executing on falcon3, pid 20136
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/Multiple16/inversek2j/NoOutIOC4_2000K configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=4MB --cacheline_size=64 --mem-size=4GB --num-cpus=8 -c binNoOutIO/inversek2j '--options=options2t;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data'
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+fatal: Can't load object file binNoOutIO/inversek2j
+ @ tick 0
+[create:build/X86/sim/process.cc, line 624]
+Memory Usage: 4316740 KBytes
+Program aborted at tick 0
+--- BEGIN LIBC BACKTRACE ---
+build/X86/gem5.opt(_Z15print_backtracev+0x15)[0x9065b5]
+build/X86/gem5.opt(_Z12abortHandleri+0x36)[0x9168b6]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x10330)[0x7f92c1bd4330]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x37)[0x7f92c0114c37]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x148)[0x7f92c0118028]
+build/X86/gem5.opt(_Z15__exit_epilogueiPKcS0_iS0_+0x1ec)[0xa969dc]
+build/X86/gem5.opt[0x743d85]
+build/X86/gem5.opt(_ZN11LiveProcess6createEP17LiveProcessParams+0x1ba)[0x94432a]
+build/X86/gem5.opt[0xea7fbb]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4bd4)[0x7f92c179fb94]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f92c17a1c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f92c179f898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f92c17a1c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f92c179f898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f92c17a1c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f92c179f898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f92c17a1c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f92c179f898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f92c17a1c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f92c179f898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f92c17a1c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f92c179f898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f92c17a1c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f92c179f898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4b59)[0x7f92c179fb19]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f92c17a1c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f92c17a1f22]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x563e)[0x7f92c17a05fe]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f92c17a1c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f92c179f898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f92c17a1c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f92c17a1f22]
+--- END LIBC BACKTRACE ---
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb 11 2017 09:42:22
+gem5 executing on falcon3, pid 20144
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/Multiple16/inversek2j/NoOutIOC8_1000K configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=64MB --cacheline_size=64 --mem-size=4GB --num-cpus=8 -c binNoOutIO/inversek2j '--options=options1t;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data'
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+fatal: Can't load object file binNoOutIO/inversek2j
+ @ tick 0
+[create:build/X86/sim/process.cc, line 624]
+Memory Usage: 4316744 KBytes
+Program aborted at tick 0
+--- BEGIN LIBC BACKTRACE ---
+build/X86/gem5.opt(_Z15print_backtracev+0x15)[0x9065b5]
+build/X86/gem5.opt(_Z12abortHandleri+0x36)[0x9168b6]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x10330)[0x7f7cc6fb6330]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x37)[0x7f7cc54f6c37]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x148)[0x7f7cc54fa028]
+build/X86/gem5.opt(_Z15__exit_epilogueiPKcS0_iS0_+0x1ec)[0xa969dc]
+build/X86/gem5.opt[0x743d85]
+build/X86/gem5.opt(_ZN11LiveProcess6createEP17LiveProcessParams+0x1ba)[0x94432a]
+build/X86/gem5.opt[0xea7fbb]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4bd4)[0x7f7cc6b81b94]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f7cc6b83c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f7cc6b81898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f7cc6b83c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f7cc6b81898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f7cc6b83c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f7cc6b81898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f7cc6b83c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f7cc6b81898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f7cc6b83c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f7cc6b81898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f7cc6b83c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f7cc6b81898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f7cc6b83c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f7cc6b81898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4b59)[0x7f7cc6b81b19]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f7cc6b83c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f7cc6b83f22]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x563e)[0x7f7cc6b825fe]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f7cc6b83c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f7cc6b81898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f7cc6b83c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f7cc6b83f22]
+--- END LIBC BACKTRACE ---
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb 11 2017 09:42:22
+gem5 executing on falcon3, pid 20135
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/Multiple16/inversek2j/NoOutIOC4_1000K configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=4MB --cacheline_size=64 --mem-size=4GB --num-cpus=8 -c binNoOutIO/inversek2j '--options=options1t;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data'
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb 11 2017 09:42:22
+gem5 executing on falcon3, pid 20134
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/Multiple16/inversek2j/NoOutIOC3_2000K configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=2MB --cacheline_size=64 --mem-size=4GB --num-cpus=8 -c binNoOutIO/inversek2j '--options=options2t;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data'
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+fatal: Can't load object file binNoOutIO/inversek2j
+ @ tick 0
+[create:build/X86/sim/process.cc, line 624]
+Memory Usage: 4316740 KBytes
+Program aborted at tick 0
+--- BEGIN LIBC BACKTRACE ---
+build/X86/gem5.opt(_Z15print_backtracev+0x15)[0x9065b5]
+build/X86/gem5.opt(_Z12abortHandleri+0x36)[0x9168b6]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x10330)[0x7f67382df330]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x37)[0x7f673681fc37]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x148)[0x7f6736823028]
+build/X86/gem5.opt(_Z15__exit_epilogueiPKcS0_iS0_+0x1ec)[0xa969dc]
+build/X86/gem5.opt[0x743d85]
+build/X86/gem5.opt(_ZN11LiveProcess6createEP17LiveProcessParams+0x1ba)[0x94432a]
+build/X86/gem5.opt[0xea7fbb]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4bd4)[0x7f6737eaab94]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f6737eacc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f6737eaa898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f6737eacc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f6737eaa898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f6737eacc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f6737eaa898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f6737eacc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f6737eaa898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f6737eacc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f6737eaa898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f6737eacc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f6737eaa898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f6737eacc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f6737eaa898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4b59)[0x7f6737eaab19]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f6737eacc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f6737eacf22]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x563e)[0x7f6737eab5fe]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f6737eacc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f6737eaa898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f6737eacc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f6737eacf22]
+--- END LIBC BACKTRACE ---
+fatal: Can't load object file binNoOutIO/inversek2j
+ @ tick 0
+[create:build/X86/sim/process.cc, line 624]
+Memory Usage: 4316744 KBytes
+Program aborted at tick 0
+--- BEGIN LIBC BACKTRACE ---
+build/X86/gem5.opt(_Z15print_backtracev+0x15)[0x9065b5]
+build/X86/gem5.opt(_Z12abortHandleri+0x36)[0x9168b6]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x10330)[0x7f19accce330]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x37)[0x7f19ab20ec37]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x148)[0x7f19ab212028]
+build/X86/gem5.opt(_Z15__exit_epilogueiPKcS0_iS0_+0x1ec)[0xa969dc]
+build/X86/gem5.opt[0x743d85]
+build/X86/gem5.opt(_ZN11LiveProcess6createEP17LiveProcessParams+0x1ba)[0x94432a]
+build/X86/gem5.opt[0xea7fbb]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4bd4)[0x7f19ac899b94]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f19ac89bc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f19ac899898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f19ac89bc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f19ac899898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f19ac89bc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f19ac899898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f19ac89bc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f19ac899898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f19ac89bc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f19ac899898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f19ac89bc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f19ac899898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f19ac89bc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f19ac899898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4b59)[0x7f19ac899b19]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f19ac89bc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f19ac89bf22]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x563e)[0x7f19ac89a5fe]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f19ac89bc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f19ac899898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f19ac89bc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f19ac89bf22]
+--- END LIBC BACKTRACE ---
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb 11 2017 09:42:22
+gem5 executing on falcon3, pid 20142
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/Multiple16/inversek2j/NoOutIOC7_1000K configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=32MB --cacheline_size=64 --mem-size=4GB --num-cpus=8 -c binNoOutIO/inversek2j '--options=options1t;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data'
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+fatal: Can't load object file binNoOutIO/inversek2j
+ @ tick 0
+[create:build/X86/sim/process.cc, line 624]
+Memory Usage: 4316744 KBytes
+Program aborted at tick 0
+--- BEGIN LIBC BACKTRACE ---
+build/X86/gem5.opt(_Z15print_backtracev+0x15)[0x9065b5]
+build/X86/gem5.opt(_Z12abortHandleri+0x36)[0x9168b6]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x10330)[0x7fa7af53e330]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x37)[0x7fa7ada7ec37]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x148)[0x7fa7ada82028]
+build/X86/gem5.opt(_Z15__exit_epilogueiPKcS0_iS0_+0x1ec)[0xa969dc]
+build/X86/gem5.opt[0x743d85]
+build/X86/gem5.opt(_ZN11LiveProcess6createEP17LiveProcessParams+0x1ba)[0x94432a]
+build/X86/gem5.opt[0xea7fbb]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4bd4)[0x7fa7af109b94]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fa7af10bc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fa7af109898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fa7af10bc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fa7af109898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fa7af10bc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fa7af109898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fa7af10bc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fa7af109898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fa7af10bc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fa7af109898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fa7af10bc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fa7af109898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fa7af10bc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fa7af109898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4b59)[0x7fa7af109b19]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fa7af10bc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7fa7af10bf22]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x563e)[0x7fa7af10a5fe]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fa7af10bc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fa7af109898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fa7af10bc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7fa7af10bf22]
+--- END LIBC BACKTRACE ---
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb 11 2017 09:42:22
+gem5 executing on falcon3, pid 20131
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/Multiple16/inversek2j/NoOutIOC2_1000K configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=1MB --cacheline_size=64 --mem-size=4GB --num-cpus=8 -c binNoOutIO/inversek2j '--options=options1t;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data'
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb 11 2017 09:42:22
+gem5 executing on falcon3, pid 20139
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/Multiple16/inversek2j/NoOutIOC5_2000K configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=8MB --cacheline_size=64 --mem-size=4GB --num-cpus=8 -c binNoOutIO/inversek2j '--options=options2t;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data'
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+fatal: Can't load object file binNoOutIO/inversek2j
+ @ tick 0
+[create:build/X86/sim/process.cc, line 624]
+Memory Usage: 4316740 KBytes
+Program aborted at tick 0
+--- BEGIN LIBC BACKTRACE ---
+build/X86/gem5.opt(_Z15print_backtracev+0x15)[0x9065b5]
+fatal: Can't load object file binNoOutIO/inversek2j
+build/X86/gem5.opt(_Z12abortHandleri+0x36)[0x9168b6]
+ @ tick /lib/x86_64-linux-gnu/libpthread.so.0(+0x10330)[0x7f61918d4330]
+0
+[create:build/X86/sim/process.cc, line 624]
+Memory Usage: 4316740 KBytes
+Program aborted at tick 0
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x37)[0x7f618fe14c37]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x148)[0x7f618fe18028]
+--- BEGIN LIBC BACKTRACE ---
+build/X86/gem5.opt(_Z15print_backtracev+0x15)[0x9065b5]
+build/X86/gem5.opt(_Z15__exit_epilogueiPKcS0_iS0_+0x1ec)[0xa969dc]
+build/X86/gem5.opt[0x743d85]
+build/X86/gem5.opt(_Z12abortHandleri+0x36)[0x9168b6]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x10330)[0x7f7d282d9330]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x37)[0x7f7d26819c37]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x148)[0x7f7d2681d028]
+build/X86/gem5.opt(_ZN11LiveProcess6createEP17LiveProcessParams+0x1ba)[0x94432a]
+build/X86/gem5.opt(_Z15__exit_epilogueiPKcS0_iS0_+0x1ec)[0xa969dc]
+build/X86/gem5.opt[0xea7fbb]
+build/X86/gem5.opt[0x743d85]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4bd4)[0x7f619149fb94]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f61914a1c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f619149f898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f61914a1c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f619149f898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f61914a1c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f619149f898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f61914a1c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f619149f898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f61914a1c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f619149f898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f61914a1c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f619149f898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f61914a1c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f619149f898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4b59)[0x7f619149fb19]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f61914a1c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f61914a1f22]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x563e)[0x7f61914a05fe]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f61914a1c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f619149f898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f61914a1c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f61914a1f22]
+--- END LIBC BACKTRACE ---
+build/X86/gem5.opt(_ZN11LiveProcess6createEP17LiveProcessParams+0x1ba)[0x94432a]
+build/X86/gem5.opt[0xea7fbb]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4bd4)[0x7f7d27ea4b94]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f7d27ea6c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f7d27ea4898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f7d27ea6c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f7d27ea4898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f7d27ea6c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f7d27ea4898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f7d27ea6c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f7d27ea4898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f7d27ea6c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f7d27ea4898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f7d27ea6c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f7d27ea4898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f7d27ea6c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f7d27ea4898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4b59)[0x7f7d27ea4b19]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f7d27ea6c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f7d27ea6f22]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x563e)[0x7f7d27ea55fe]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f7d27ea6c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f7d27ea4898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f7d27ea6c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f7d27ea6f22]
+--- END LIBC BACKTRACE ---
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb 11 2017 09:42:22
+gem5 executing on falcon3, pid 20143
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/Multiple16/inversek2j/NoOutIOC7_2000K configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=32MB --cacheline_size=64 --mem-size=4GB --num-cpus=8 -c binNoOutIO/inversek2j '--options=options2t;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data'
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb 11 2017 09:42:22
+gem5 executing on falcon3, pid 20132
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/Multiple16/inversek2j/NoOutIOC2_2000K configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=1MB --cacheline_size=64 --mem-size=4GB --num-cpus=8 -c binNoOutIO/inversek2j '--options=options2t;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data'
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+fatal: Can't load object file binNoOutIO/inversek2j
+ @ tick 0
+[create:build/X86/sim/process.cc, line 624]
+Memory Usage: 4316744 KBytes
+Program aborted at tick 0
+--- BEGIN LIBC BACKTRACE ---
+build/X86/gem5.opt(_Z15print_backtracev+0x15)[0x9065b5]
+build/X86/gem5.opt(_Z12abortHandleri+0x36)[0x9168b6]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x10330)[0x7f8a786b9330]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x37)[0x7f8a76bf9c37]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x148)[0x7f8a76bfd028]
+build/X86/gem5.opt(_Z15__exit_epilogueiPKcS0_iS0_+0x1ec)[0xa969dc]
+build/X86/gem5.opt[0x743d85]
+build/X86/gem5.opt(_ZN11LiveProcess6createEP17LiveProcessParams+0x1ba)[0x94432a]
+build/X86/gem5.opt[0xea7fbb]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4bd4)[0x7f8a78284b94]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f8a78286c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f8a78284898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f8a78286c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f8a78284898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f8a78286c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f8a78284898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f8a78286c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f8a78284898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f8a78286c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f8a78284898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f8a78286c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f8a78284898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f8a78286c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f8a78284898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4b59)[0x7f8a78284b19]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f8a78286c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f8a78286f22]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x563e)[0x7f8a782855fe]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f8a78286c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f8a78284898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f8a78286c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f8a78286f22]
+--- END LIBC BACKTRACE ---
+fatal: Can't load object file binNoOutIO/inversek2j
+ @ tick 0
+[create:build/X86/sim/process.cc, line 624]
+Memory Usage: 4316744 KBytes
+Program aborted at tick 0
+--- BEGIN LIBC BACKTRACE ---
+build/X86/gem5.opt(_Z15print_backtracev+0x15)[0x9065b5]
+build/X86/gem5.opt(_Z12abortHandleri+0x36)[0x9168b6]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x10330)[0x7f801033f330]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x37)[0x7f800e87fc37]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x148)[0x7f800e883028]
+build/X86/gem5.opt(_Z15__exit_epilogueiPKcS0_iS0_+0x1ec)[0xa969dc]
+build/X86/gem5.opt[0x743d85]
+build/X86/gem5.opt(_ZN11LiveProcess6createEP17LiveProcessParams+0x1ba)[0x94432a]
+build/X86/gem5.opt[0xea7fbb]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4bd4)[0x7f800ff0ab94]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f800ff0cc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f800ff0a898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f800ff0cc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f800ff0a898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f800ff0cc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f800ff0a898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f800ff0cc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f800ff0a898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f800ff0cc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f800ff0a898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f800ff0cc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f800ff0a898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f800ff0cc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f800ff0a898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4b59)[0x7f800ff0ab19]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f800ff0cc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f800ff0cf22]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x563e)[0x7f800ff0b5fe]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f800ff0cc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f800ff0a898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f800ff0cc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f800ff0cf22]
+--- END LIBC BACKTRACE ---
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb 11 2017 09:42:22
+gem5 executing on falcon3, pid 20140
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/Multiple16/inversek2j/NoOutIOC6_1000K configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=16MB --cacheline_size=64 --mem-size=4GB --num-cpus=8 -c binNoOutIO/inversek2j '--options=options1t;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data'
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+fatal: Can't load object file binNoOutIO/inversek2j
+ @ tick 0
+[create:build/X86/sim/process.cc, line 624]
+Memory Usage: 4316740 KBytes
+Program aborted at tick 0
+--- BEGIN LIBC BACKTRACE ---
+build/X86/gem5.opt(_Z15print_backtracev+0x15)[0x9065b5]
+build/X86/gem5.opt(_Z12abortHandleri+0x36)[0x9168b6]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x10330)[0x7fac10e8d330]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x37)[0x7fac0f3cdc37]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x148)[0x7fac0f3d1028]
+build/X86/gem5.opt(_Z15__exit_epilogueiPKcS0_iS0_+0x1ec)[0xa969dc]
+build/X86/gem5.opt[0x743d85]
+build/X86/gem5.opt(_ZN11LiveProcess6createEP17LiveProcessParams+0x1ba)[0x94432a]
+build/X86/gem5.opt[0xea7fbb]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4bd4)[0x7fac10a58b94]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fac10a5ac3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fac10a58898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fac10a5ac3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fac10a58898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fac10a5ac3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fac10a58898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fac10a5ac3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fac10a58898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fac10a5ac3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fac10a58898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fac10a5ac3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fac10a58898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fac10a5ac3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fac10a58898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4b59)[0x7fac10a58b19]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fac10a5ac3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7fac10a5af22]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x563e)[0x7fac10a595fe]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fac10a5ac3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fac10a58898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fac10a5ac3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7fac10a5af22]
+--- END LIBC BACKTRACE ---
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb 11 2017 09:42:22
+gem5 executing on falcon3, pid 20133
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/Multiple16/inversek2j/NoOutIOC3_1000K configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=2MB --cacheline_size=64 --mem-size=4GB --num-cpus=8 -c binNoOutIO/inversek2j '--options=options1t;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data'
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+fatal: Can't load object file binNoOutIO/inversek2j
+ @ tick 0
+[create:build/X86/sim/process.cc, line 624]
+Memory Usage: 4316744 KBytes
+Program aborted at tick 0
+--- BEGIN LIBC BACKTRACE ---
+build/X86/gem5.opt(_Z15print_backtracev+0x15)[0x9065b5]
+build/X86/gem5.opt(_Z12abortHandleri+0x36)[0x9168b6]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x10330)[0x7ff6ae061330]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x37)[0x7ff6ac5a1c37]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x148)[0x7ff6ac5a5028]
+build/X86/gem5.opt(_Z15__exit_epilogueiPKcS0_iS0_+0x1ec)[0xa969dc]
+build/X86/gem5.opt[0x743d85]
+build/X86/gem5.opt(_ZN11LiveProcess6createEP17LiveProcessParams+0x1ba)[0x94432a]
+build/X86/gem5.opt[0xea7fbb]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4bd4)[0x7ff6adc2cb94]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7ff6adc2ec3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7ff6adc2c898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7ff6adc2ec3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7ff6adc2c898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7ff6adc2ec3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7ff6adc2c898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7ff6adc2ec3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7ff6adc2c898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7ff6adc2ec3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7ff6adc2c898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7ff6adc2ec3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7ff6adc2c898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7ff6adc2ec3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7ff6adc2c898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4b59)[0x7ff6adc2cb19]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7ff6adc2ec3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7ff6adc2ef22]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x563e)[0x7ff6adc2d5fe]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7ff6adc2ec3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7ff6adc2c898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7ff6adc2ec3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7ff6adc2ef22]
+--- END LIBC BACKTRACE ---
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb 11 2017 09:42:22
+gem5 executing on falcon3, pid 20129
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/Multiple16/inversek2j/NoOutIOC1_1000K configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=512kB --cacheline_size=64 --mem-size=4GB --num-cpus=8 -c binNoOutIO/inversek2j '--options=options1t;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data'
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+fatal: Can't load object file binNoOutIO/inversek2j
+ @ tick 0
+[create:build/X86/sim/process.cc, line 624]
+Memory Usage: 4316744 KBytes
+Program aborted at tick 0
+--- BEGIN LIBC BACKTRACE ---
+build/X86/gem5.opt(_Z15print_backtracev+0x15)[0x9065b5]
+build/X86/gem5.opt(_Z12abortHandleri+0x36)[0x9168b6]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x10330)[0x7f6bbff7d330]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x37)[0x7f6bbe4bdc37]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x148)[0x7f6bbe4c1028]
+build/X86/gem5.opt(_Z15__exit_epilogueiPKcS0_iS0_+0x1ec)[0xa969dc]
+build/X86/gem5.opt[0x743d85]
+build/X86/gem5.opt(_ZN11LiveProcess6createEP17LiveProcessParams+0x1ba)[0x94432a]
+build/X86/gem5.opt[0xea7fbb]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4bd4)[0x7f6bbfb48b94]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f6bbfb4ac3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f6bbfb48898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f6bbfb4ac3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f6bbfb48898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f6bbfb4ac3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f6bbfb48898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f6bbfb4ac3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f6bbfb48898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f6bbfb4ac3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f6bbfb48898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f6bbfb4ac3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f6bbfb48898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f6bbfb4ac3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f6bbfb48898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4b59)[0x7f6bbfb48b19]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f6bbfb4ac3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f6bbfb4af22]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x563e)[0x7f6bbfb495fe]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f6bbfb4ac3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f6bbfb48898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f6bbfb4ac3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f6bbfb4af22]
+--- END LIBC BACKTRACE ---
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb 11 2017 09:42:22
+gem5 executing on falcon3, pid 20141
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/Multiple16/inversek2j/NoOutIOC6_2000K configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=16MB --cacheline_size=64 --mem-size=4GB --num-cpus=8 -c binNoOutIO/inversek2j '--options=options2t;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data'
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb 11 2017 09:42:22
+gem5 executing on falcon3, pid 20137
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/Multiple16/inversek2j/NoOutIOC5_1000K configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=8MB --cacheline_size=64 --mem-size=4GB --num-cpus=8 -c binNoOutIO/inversek2j '--options=options1t;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data'
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+fatal: Can't load object file binNoOutIO/inversek2j
+ @ tick 0
+[create:build/X86/sim/process.cc, line 624]
+Memory Usage: 4316740 KBytes
+Program aborted at tick 0
+--- BEGIN LIBC BACKTRACE ---
+build/X86/gem5.opt(_Z15print_backtracev+0x15)[0x9065b5]
+build/X86/gem5.opt(_Z12abortHandleri+0x36)[0x9168b6]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x10330)[0x7f039fe17330]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x37)[0x7f039e357c37]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x148)[0x7f039e35b028]
+build/X86/gem5.opt(_Z15__exit_epilogueiPKcS0_iS0_+0x1ec)[0xa969dc]
+build/X86/gem5.opt[0x743d85]
+build/X86/gem5.opt(_ZN11LiveProcess6createEP17LiveProcessParams+0x1ba)[0x94432a]
+build/X86/gem5.opt[0xea7fbb]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4bd4)[0x7f039f9e2b94]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f039f9e4c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f039f9e2898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f039f9e4c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f039f9e2898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f039f9e4c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f039f9e2898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f039f9e4c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f039f9e2898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f039f9e4c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f039f9e2898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f039f9e4c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f039f9e2898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f039f9e4c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f039f9e2898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4b59)[0x7f039f9e2b19]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f039f9e4c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f039f9e4f22]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x563e)[0x7f039f9e35fe]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f039f9e4c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f039f9e2898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f039f9e4c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f039f9e4f22]
+--- END LIBC BACKTRACE ---
+fatal: Can't load object file binNoOutIO/inversek2j
+ @ tick 0
+[create:build/X86/sim/process.cc, line 624]
+Memory Usage: 4316740 KBytes
+Program aborted at tick 0
+--- BEGIN LIBC BACKTRACE ---
+build/X86/gem5.opt(_Z15print_backtracev+0x15)[0x9065b5]
+build/X86/gem5.opt(_Z12abortHandleri+0x36)[0x9168b6]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x10330)[0x7f30736b2330]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x37)[0x7f3071bf2c37]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x148)[0x7f3071bf6028]
+build/X86/gem5.opt(_Z15__exit_epilogueiPKcS0_iS0_+0x1ec)[0xa969dc]
+build/X86/gem5.opt[0x743d85]
+build/X86/gem5.opt(_ZN11LiveProcess6createEP17LiveProcessParams+0x1ba)[0x94432a]
+build/X86/gem5.opt[0xea7fbb]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4bd4)[0x7f307327db94]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f307327fc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f307327d898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f307327fc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f307327d898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f307327fc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f307327d898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f307327fc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f307327d898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f307327fc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f307327d898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f307327fc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f307327d898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f307327fc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f307327d898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4b59)[0x7f307327db19]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f307327fc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f307327ff22]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x563e)[0x7f307327e5fe]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f307327fc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f307327d898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f307327fc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f307327ff22]
+--- END LIBC BACKTRACE ---
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb 11 2017 09:42:22
+gem5 executing on falcon3, pid 20130
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/Multiple16/inversek2j/NoOutIOC1_2000K configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=512kB --cacheline_size=64 --mem-size=4GB --num-cpus=8 -c binNoOutIO/inversek2j '--options=options2t;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data'
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+fatal: Can't load object file binNoOutIO/inversek2j
+ @ tick 0
+[create:build/X86/sim/process.cc, line 624]
+Memory Usage: 4316744 KBytes
+Program aborted at tick 0
+--- BEGIN LIBC BACKTRACE ---
+build/X86/gem5.opt(_Z15print_backtracev+0x15)[0x9065b5]
+build/X86/gem5.opt(_Z12abortHandleri+0x36)[0x9168b6]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x10330)[0x7f23bf2af330]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x37)[0x7f23bd7efc37]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x148)[0x7f23bd7f3028]
+build/X86/gem5.opt(_Z15__exit_epilogueiPKcS0_iS0_+0x1ec)[0xa969dc]
+build/X86/gem5.opt[0x743d85]
+build/X86/gem5.opt(_ZN11LiveProcess6createEP17LiveProcessParams+0x1ba)[0x94432a]
+build/X86/gem5.opt[0xea7fbb]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4bd4)[0x7f23bee7ab94]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f23bee7cc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f23bee7a898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f23bee7cc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f23bee7a898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f23bee7cc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f23bee7a898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f23bee7cc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f23bee7a898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f23bee7cc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f23bee7a898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f23bee7cc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f23bee7a898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f23bee7cc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f23bee7a898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4b59)[0x7f23bee7ab19]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f23bee7cc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f23bee7cf22]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x563e)[0x7f23bee7b5fe]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f23bee7cc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f23bee7a898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f23bee7cc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f23bee7cf22]
+--- END LIBC BACKTRACE ---
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb 11 2017 09:42:22
+gem5 executing on falcon3, pid 20145
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/Multiple16/inversek2j/NoOutIOC8_2000K configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=64MB --cacheline_size=64 --mem-size=4GB --num-cpus=8 -c binNoOutIO/inversek2j '--options=options2t;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data;/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data'
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+fatal: Can't load object file binNoOutIO/inversek2j
+ @ tick 0
+[create:build/X86/sim/process.cc, line 624]
+Memory Usage: 4316744 KBytes
+Program aborted at tick 0
+--- BEGIN LIBC BACKTRACE ---
+build/X86/gem5.opt(_Z15print_backtracev+0x15)[0x9065b5]
+build/X86/gem5.opt(_Z12abortHandleri+0x36)[0x9168b6]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x10330)[0x7f9e8bfd0330]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x37)[0x7f9e8a510c37]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x148)[0x7f9e8a514028]
+build/X86/gem5.opt(_Z15__exit_epilogueiPKcS0_iS0_+0x1ec)[0xa969dc]
+build/X86/gem5.opt[0x743d85]
+build/X86/gem5.opt(_ZN11LiveProcess6createEP17LiveProcessParams+0x1ba)[0x94432a]
+build/X86/gem5.opt[0xea7fbb]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4bd4)[0x7f9e8bb9bb94]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f9e8bb9dc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f9e8bb9b898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f9e8bb9dc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f9e8bb9b898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f9e8bb9dc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f9e8bb9b898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f9e8bb9dc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f9e8bb9b898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f9e8bb9dc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f9e8bb9b898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f9e8bb9dc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f9e8bb9b898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f9e8bb9dc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f9e8bb9b898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4b59)[0x7f9e8bb9bb19]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f9e8bb9dc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f9e8bb9df22]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x563e)[0x7f9e8bb9c5fe]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f9e8bb9dc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f9e8bb9b898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f9e8bb9dc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f9e8bb9df22]
+--- END LIBC BACKTRACE ---

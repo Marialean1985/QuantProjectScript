@@ -1,0 +1,177 @@
+Short
+1
+--cpu-type=detailed --caches --l2cache  --l1d_size=32kB --l2_size=512kB  --cacheline_size=64 --mem-size=4GB
+2
+--cpu-type=detailed --caches --l2cache  --l1d_size=32kB --l2_size=1MB  --cacheline_size=64  --mem-size=4GB
+3
+--cpu-type=detailed --caches --l2cache  --l1d_size=32kB --l2_size=2MB  --cacheline_size=64  --mem-size=4GB
+4
+--cpu-type=detailed --caches --l2cache  --l1d_size=32kB --l2_size=4MB  --cacheline_size=64  --mem-size=4GB
+5
+--cpu-type=detailed --caches --l2cache  --l1d_size=32kB --l2_size=8MB  --cacheline_size=64  --mem-size=4GB
+6
+--cpu-type=detailed --caches --l2cache  --l1d_size=32kB --l2_size=16MB  --cacheline_size=64  --mem-size=4GB
+7
+--cpu-type=detailed --caches --l2cache  --l1d_size=32kB --l2_size=32MB  --cacheline_size=64  --mem-size=4GB
+8
+--cpu-type=detailed --caches --l2cache  --l1d_size=32kB --l2_size=64MB  --cacheline_size=64  --mem-size=4GB
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb  3 2017 17:39:59
+gem5 executing on falcon3, pid 24772
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/jpeg/ShortC7_1000K configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=32MB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/srcShort/jpeg --options=/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/jpeg/test.data/input/5.rgb
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb  3 2017 17:39:59
+gem5 executing on falcon3, pid 24766
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/jpeg/ShortC1_1000K configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=512kB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/srcShort/jpeg --options=/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/jpeg/test.data/input/5.rgb
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb  3 2017 17:39:59
+gem5 executing on falcon3, pid 24770
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/jpeg/ShortC5_1000K configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=8MB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/srcShort/jpeg --options=/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/jpeg/test.data/input/5.rgb
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb  3 2017 17:39:59
+gem5 executing on falcon3, pid 24768
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/jpeg/ShortC3_1000K configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=2MB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/srcShort/jpeg --options=/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/jpeg/test.data/input/5.rgb
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb  3 2017 17:39:59
+gem5 executing on falcon3, pid 24771
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/jpeg/ShortC6_1000K configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=16MB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/srcShort/jpeg --options=/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/jpeg/test.data/input/5.rgb
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb  3 2017 17:39:59
+gem5 executing on falcon3, pid 24769
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/jpeg/ShortC4_1000K configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=4MB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/srcShort/jpeg --options=/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/jpeg/test.data/input/5.rgb
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb  3 2017 17:39:59
+gem5 executing on falcon3, pid 24767
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/jpeg/ShortC2_1000K configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=1MB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/srcShort/jpeg --options=/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/jpeg/test.data/input/5.rgb
+
+Global frequency set at 1000000000000 ticks per second
+warngem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb  3 2017 17:39:59
+gem5 executing on falcon3, pid 24773
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/jpeg/ShortC8_1000K configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=64MB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/srcShort/jpeg --options=/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/jpeg/test.data/input/5.rgb
+
+Global frequency set at 1000000000000 ticks per second
+: warnDRAM device capacity (8192:  Mbytes) does not match the address range assigned (DRAM device capacity (4096 Mbytes)8192 Mbytes) does not match the address range assigned (
+4096 Mbytes)
+warn: Sockets disabled, not accepting gdb connections
+warn: Sockets disabled, not accepting gdb connections
+warn: Sockets disabled, not accepting gdb connections
+warn: Sockets disabled, not accepting gdb connections
+warn: Sockets disabled, not accepting gdb connections
+warn: Sockets disabled, not accepting gdb connections
+warn: Sockets disabled, not accepting gdb connections
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+warn: x86 cpuid family 0x0000: unimplemented function 7
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+warn: x86 cpuid family 0x0000: unimplemented function 7
+warn: x86 cpuid family 0x0000: unimplemented function 7
+warn: x86 cpuid family 0x0000: unimplemented function 7
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/srcShort/jpeg'
+info: Increasing stack size by one page.
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/srcShort/jpeg'
+info: Increasing stack size by one page.
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/srcShort/jpeg'
+info: Increasing stack size by one page.
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/srcShort/jpeg'
+info: Increasing stack size by one page.
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+warn: x86 cpuid family 0x0000: unimplemented function 7
+warn: x86 cpuid family 0x0000: unimplemented function 7
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/srcShort/jpeg'
+info: Increasing stack size by one page.
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/srcShort/jpeg'
+info: Increasing stack size by one page.
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: x86 cpuid family 0x0000: unimplemented function 7
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/srcShort/jpeg'
+info: Increasing stack size by one page.
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: Sockets disabled, not accepting gdb connections
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+warn: x86 cpuid family 0x0000: unimplemented function 7
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/srcShort/jpeg'
+info: Increasing stack size by one page.
+warn: ignoring syscall access(...)
+Exiting @ tick 66269975500 because target called exit()
+Exiting @ tick 66269975500 because target called exit()
+Exiting @ tick 66338685500 because target called exit()
+Exiting @ tick 66269975500 because target called exit()
+Exiting @ tick 66269975500 because target called exit()
+Exiting @ tick 66306768500 because target called exit()
+Exiting @ tick 66269975500 because target called exit()
+Exiting @ tick 66269975500 because target called exit()

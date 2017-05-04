@@ -1,0 +1,1266 @@
+
+configuration number 1
+--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64 --ratio=4 --mem-size=4GB --num-cpus=8
+optionVar is 262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/1.txt_0;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/1.txt_1;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/1.txt_2;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/1.txt_3;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/1.txt_4;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/1.txt_5;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/1.txt_6;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/1.txt_7
+binaryVar is /bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang
+configuration number 2
+--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache  --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64 --ratio=3.55 --mem-size=4GB --num-cpus=8
+optionVar is 262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/2.txt_0;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/2.txt_1;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/2.txt_2;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/2.txt_3;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/2.txt_4;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/2.txt_5;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/2.txt_6;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/2.txt_7
+binaryVar is /bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang
+configuration number 3
+--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64  --ratio=3.2 --mem-size=4GB --num-cpus=8
+optionVar is 262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/3.txt_0;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/3.txt_1;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/3.txt_2;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/3.txt_3;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/3.txt_4;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/3.txt_5;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/3.txt_6;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/3.txt_7
+binaryVar is /bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang
+configuration number 4
+--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64 --ratio=2.9  --mem-size=4GB --num-cpus=8
+optionVar is 262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/4.txt_0;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/4.txt_1;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/4.txt_2;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/4.txt_3;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/4.txt_4;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/4.txt_5;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/4.txt_6;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/4.txt_7
+binaryVar is /bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang
+configuration number 5
+--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64  --ratio=2.66 --mem-size=4GB --num-cpus=8
+optionVar is 262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/5.txt_0;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/5.txt_1;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/5.txt_2;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/5.txt_3;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/5.txt_4;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/5.txt_5;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/5.txt_6;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/5.txt_7
+binaryVar is /bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang
+configuration number 6
+--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64  --ratio=2.46 --mem-size=4GB --num-cpus=8
+optionVar is 262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/6.txt_0;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/6.txt_1;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/6.txt_2;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/6.txt_3;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/6.txt_4;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/6.txt_5;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/6.txt_6;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/6.txt_7
+binaryVar is /bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang
+configuration number 7
+--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64  --ratio=2.28 --mem-size=4GB --num-cpus=8
+optionVar is 262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/7.txt_0;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/7.txt_1;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/7.txt_2;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/7.txt_3;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/7.txt_4;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/7.txt_5;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/7.txt_6;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/7.txt_7
+binaryVar is /bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang
+configuration number 8
+--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64  --ratio=2.13 --mem-size=4GB --num-cpus=8
+optionVar is 262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/8.txt_0;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/8.txt_1;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/8.txt_2;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/8.txt_3;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/8.txt_4;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/8.txt_5;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/8.txt_6;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/8.txt_7
+binaryVar is /bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang
+configuration number 9
+--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64  --ratio=2 --mem-size=4GB --num-cpus=8
+optionVar is 262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/9.txt_0;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/9.txt_1;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/9.txt_2;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/9.txt_3;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/9.txt_4;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/9.txt_5;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/9.txt_6;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/9.txt_7
+binaryVar is /bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang
+configuration number 10
+--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64  --ratio=1.77 --mem-size=4GB --num-cpus=8
+optionVar is 262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/10.txt_0;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/10.txt_1;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/10.txt_2;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/10.txt_3;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/10.txt_4;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/10.txt_5;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/10.txt_6;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/10.txt_7
+binaryVar is /bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang
+configuration number 11
+--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64  --ratio=1.68 --mem-size=4GB --num-cpus=8
+optionVar is 262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/11.txt_0;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/11.txt_1;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/11.txt_2;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/11.txt_3;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/11.txt_4;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/11.txt_5;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/11.txt_6;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/11.txt_7
+binaryVar is /bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang
+configuration number 12
+--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64  --ratio=1.6 --mem-size=4GB --num-cpus=8
+optionVar is 262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/12.txt_0;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/12.txt_1;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/12.txt_2;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/12.txt_3;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/12.txt_4;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/12.txt_5;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/12.txt_6;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/12.txt_7
+binaryVar is /bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang
+configuration number 13
+--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64  --ratio=1.52 --mem-size=4GB --num-cpus=8
+optionVar is 262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/13.txt_0;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/13.txt_1;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/13.txt_2;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/13.txt_3;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/13.txt_4;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/13.txt_5;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/13.txt_6;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/13.txt_7
+binaryVar is /bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang
+configuration number 14
+--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64  --ratio=1.45 --mem-size=4GB --num-cpus=8
+optionVar is 262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/14.txt_0;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/14.txt_1;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/14.txt_2;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/14.txt_3;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/14.txt_4;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/14.txt_5;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/14.txt_6;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/14.txt_7
+binaryVar is /bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang
+configuration number 15
+--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64  --ratio=1.39 --mem-size=4GB --num-cpus=8
+optionVar is 262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/15.txt_0;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/15.txt_1;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/15.txt_2;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/15.txt_3;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/15.txt_4;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/15.txt_5;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/15.txt_6;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/15.txt_7
+binaryVar is /bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang
+configuration number 16
+--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64  --ratio=1.33 --mem-size=4GB --num-cpus=8
+optionVar is 262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/16.txt_0;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/16.txt_1;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/16.txt_2;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/16.txt_3;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/16.txt_4;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/16.txt_5;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/16.txt_6;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/16.txt_7
+binaryVar is /bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang
+configuration number 17
+--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64  --ratio=1.28 --mem-size=4GB --num-cpus=8
+optionVar is 262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/17.txt_0;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/17.txt_1;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/17.txt_2;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/17.txt_3;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/17.txt_4;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/17.txt_5;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/17.txt_6;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/17.txt_7
+binaryVar is /bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang
+configuration number 18
+--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64  --ratio=1.18 --mem-size=4GB --num-cpus=8
+optionVar is 262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/18.txt_0;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/18.txt_1;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/18.txt_2;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/18.txt_3;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/18.txt_4;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/18.txt_5;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/18.txt_6;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/18.txt_7
+binaryVar is /bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang
+configuration number 19
+--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64  --ratio=1.14 --mem-size=4GB --num-cpus=8
+optionVar is 262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/19.txt_0;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/19.txt_1;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/19.txt_2;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/19.txt_3;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/19.txt_4;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/19.txt_5;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/19.txt_6;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/19.txt_7
+binaryVar is /bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang
+configuration number 20
+--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64  --ratio=1.10 --mem-size=4GB --num-cpus=8
+optionVar is 262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/20.txt_0;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/20.txt_1;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/20.txt_2;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/20.txt_3;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/20.txt_4;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/20.txt_5;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/20.txt_6;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/20.txt_7
+binaryVar is /bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang
+configuration number 21
+--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64  --ratio=1.06 --mem-size=4GB --num-cpus=8
+optionVar is 262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/21.txt_0;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/21.txt_1;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/21.txt_2;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/21.txt_3;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/21.txt_4;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/21.txt_5;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/21.txt_6;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/21.txt_7
+binaryVar is /bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang
+configuration number 22
+--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64  --ratio=1.03 --mem-size=4GB --num-cpus=8
+optionVar is 262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/22.txt_0;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/22.txt_1;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/22.txt_2;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/22.txt_3;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/22.txt_4;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/22.txt_5;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/22.txt_6;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/22.txt_7
+binaryVar is /bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang
+configuration number 23
+--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64  --ratio=1 --mem-size=4GB --num-cpus=8
+optionVar is 262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/23.txt_0;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/23.txt_1;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/23.txt_2;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/23.txt_3;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/23.txt_4;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/23.txt_5;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/23.txt_6;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/23.txt_7
+binaryVar is /bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Mar  7 2017 22:47:14
+gem5 started Mar  9 2017 01:11:21
+gem5 executing on falcon1, pid 22846
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/RangeMultiple16/fft/RangMultipleC17 configs/example/se.py --rangeFileName=/bigtemp/ml2au/AxBenchResults/Rangefiles/fft/17.txt --cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64 --ratio=1.28 --mem-size=4GB --num-cpus=8 -c '/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang' '--options=262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/17.txt_0;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/17.txt_1;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/17.txt_2;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/17.txt_3;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/17.txt_4;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/17.txt_5;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/17.txt_6;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/17.txt_7'
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+-------InTLB------------------- ranegFile is /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/17.txt_0ratio is 1.28
+-------InTLB------------------- ranegFile is /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/17.txt_0ratio is 1.28
+fatal: Can't load object file /bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang
+ @ tick 0
+[create:build/X86/sim/process.cc, line 619]
+Memory Usage: 4317332 KBytes
+Program aborted at tick 0
+--- BEGIN LIBC BACKTRACE ---
+build/X86/gem5.opt(_Z15print_backtracev+0x15)[0x907955]
+build/X86/gem5.opt(_Z12abortHandleri+0x36)[0x917c56]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x10330)[0x7fd9c194e330]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x37)[0x7fd9bfe8ec37]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x148)[0x7fd9bfe92028]
+build/X86/gem5.opt(_Z15__exit_epilogueiPKcS0_iS0_+0x1ec)[0xa99cac]
+build/X86/gem5.opt[0x744865]
+build/X86/gem5.opt(_ZN11LiveProcess6createEP17LiveProcessParams+0x1ba)[0x945f7a]
+build/X86/gem5.opt[0xeb092b]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4bd4)[0x7fd9c1519b94]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fd9c151bc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fd9c1519898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fd9c151bc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fd9c1519898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fd9c151bc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fd9c1519898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fd9c151bc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fd9c1519898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fd9c151bc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fd9c1519898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fd9c151bc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fd9c1519898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fd9c151bc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fd9c1519898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4b59)[0x7fd9c1519b19]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fd9c151bc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7fd9c151bf22]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x563e)[0x7fd9c151a5fe]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fd9c151bc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fd9c1519898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fd9c151bc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7fd9c151bf22]
+--- END LIBC BACKTRACE ---
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Mar  7 2017 22:47:14
+gem5 started Mar  9 2017 01:11:21
+gem5 executing on falcon1, pid 22836
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/RangeMultiple16/fft/RangMultipleC8 configs/example/se.py --rangeFileName=/bigtemp/ml2au/AxBenchResults/Rangefiles/fft/8.txt --cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64 --ratio=2.13 --mem-size=4GB --num-cpus=8 -c '/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang' '--options=262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/8.txt_0;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/8.txt_1;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/8.txt_2;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/8.txt_3;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/8.txt_4;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/8.txt_5;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/8.txt_6;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/8.txt_7'
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+-------InTLB------------------- ranegFile is /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/8.txt_0ratio is 2.13
+-------InTLB------------------- ranegFile is /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/8.txt_0ratio is 2.13
+fatal: Can't load object file /bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang
+ @ tick 0
+[create:build/X86/sim/process.cc, line 619]
+Memory Usage: 4317336 KBytes
+Program aborted at tick 0
+--- BEGIN LIBC BACKTRACE ---
+build/X86/gem5.opt(_Z15print_backtracev+0x15)[0x907955]
+build/X86/gem5.opt(_Z12abortHandleri+0x36)[0x917c56]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x10330)[0x7f242d55a330]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x37)[0x7f242ba9ac37]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x148)[0x7f242ba9e028]
+build/X86/gem5.opt(_Z15__exit_epilogueiPKcS0_iS0_+0x1ec)[0xa99cac]
+build/X86/gem5.opt[0x744865]
+build/X86/gem5.opt(_ZN11LiveProcess6createEP17LiveProcessParams+0x1ba)[0x945f7a]
+build/X86/gem5.opt[0xeb092b]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4bd4)[0x7f242d125b94]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f242d127c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f242d125898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f242d127c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f242d125898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f242d127c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f242d125898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f242d127c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f242d125898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f242d127c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f242d125898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f242d127c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f242d125898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f242d127c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f242d125898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4b59)[0x7f242d125b19]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f242d127c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f242d127f22]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x563e)[0x7f242d1265fe]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f242d127c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f242d125898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f242d127c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f242d127f22]
+--- END LIBC BACKTRACE ---
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Mar  7 2017 22:47:14
+gem5 started Mar  9 2017 01:11:21
+gem5 executing on falcon1, pid 22832
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/RangeMultiple16/fft/RangMultipleC4 configs/example/se.py --rangeFileName=/bigtemp/ml2au/AxBenchResults/Rangefiles/fft/4.txt --cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64 --ratio=2.9 --mem-size=4GB --num-cpus=8 -c '/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang' '--options=262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/4.txt_0;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/4.txt_1;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/4.txt_2;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/4.txt_3;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/4.txt_4;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/4.txt_5;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/4.txt_6;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/4.txt_7'
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+-------InTLB------------------- ranegFile is /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/4.txt_0ratio is 2.9
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Mar  7 2017 22:47:14
+gem5 started Mar  9 2017 01:11:21
+gem5 executing on falcon1, pid 22833
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/RangeMultiple16/fft/RangMultipleC5 configs/example/se.py --rangeFileName=/bigtemp/ml2au/AxBenchResults/Rangefiles/fft/5.txt --cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64 --ratio=2.66 --mem-size=4GB --num-cpus=8 -c '/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang' '--options=262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/5.txt_0;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/5.txt_1;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/5.txt_2;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/5.txt_3;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/5.txt_4;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/5.txt_5;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/5.txt_6;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/5.txt_7'
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+-------InTLB------------------- ranegFile is /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/4.txt_0ratio is 2.9
+fatal: Can't load object file /bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang
+ @ tick 0
+[create:build/X86/sim/process.cc, line 619]
+Memory Usage: 4317332 KBytes
+Program aborted at tick 0
+--- BEGIN LIBC BACKTRACE ---
+build/X86/gem5.opt(_Z15print_backtracev+0x15)[0x907955]
+build/X86/gem5.opt(_Z12abortHandleri+0x36)[0x917c56]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x10330)[0x7fef23708330]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x37)[0x7fef21c48c37]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x148)[0x7fef21c4c028]
+build/X86/gem5.opt(_Z15__exit_epilogueiPKcS0_iS0_+0x1ec)[0xa99cac]
+build/X86/gem5.opt[0x744865]
+build/X86/gem5.opt(_ZN11LiveProcess6createEP17LiveProcessParams+0x1ba)[0x945f7a]
+-------InTLB------------------- ranegFile is /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/5.txt_0ratio is 2.66
+build/X86/gem5.opt[0xeb092b]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4bd4)[0x7fef232d3b94]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fef232d5c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fef232d3898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fef232d5c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fef232d3898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fef232d5c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fef232d3898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fef232d5c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fef232d3898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fef232d5c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fef232d3898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fef232d5c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fef232d3898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fef232d5c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fef232d3898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4b59)[0x7fef232d3b19]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fef232d5c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7fef232d5f22]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x563e)[0x7fef232d45fe]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fef232d5c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fef232d3898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fef232d5c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7fef232d5f22]
+--- END LIBC BACKTRACE ---
+-------InTLB------------------- ranegFile is /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/5.txt_0ratio is 2.66
+fatal: Can't load object file /bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang
+ @ tick 0
+[create:build/X86/sim/process.cc, line 619]
+Memory Usage: 4317336 KBytes
+Program aborted at tick 0
+--- BEGIN LIBC BACKTRACE ---
+build/X86/gem5.opt(_Z15print_backtracev+0x15)[0x907955]
+build/X86/gem5.opt(_Z12abortHandleri+0x36)[0x917c56]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x10330)[0x7feab56e6330]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x37)[0x7feab3c26c37]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x148)[0x7feab3c2a028]
+build/X86/gem5.opt(_Z15__exit_epilogueiPKcS0_iS0_+0x1ec)[0xa99cac]
+build/X86/gem5.opt[0x744865]
+build/X86/gem5.opt(_ZN11LiveProcess6createEP17LiveProcessParams+0x1ba)[0x945f7a]
+build/X86/gem5.opt[0xeb092b]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4bd4)[0x7feab52b1b94]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7feab52b3c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7feab52b1898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7feab52b3c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7feab52b1898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7feab52b3c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7feab52b1898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7feab52b3c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7feab52b1898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7feab52b3c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7feab52b1898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7feab52b3c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7feab52b1898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7feab52b3c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7feab52b1898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4b59)[0x7feab52b1b19]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7feab52b3c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7feab52b3f22]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x563e)[0x7feab52b25fe]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7feab52b3c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7feab52b1898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7feab52b3c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7feab52b3f22]
+--- END LIBC BACKTRACE ---
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Mar  7 2017 22:47:14
+gem5 started Mar  9 2017 01:11:21
+gem5 executing on falcon1, pid 22842
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/RangeMultiple16/fft/RangMultipleC14 configs/example/se.py --rangeFileName=/bigtemp/ml2au/AxBenchResults/Rangefiles/fft/14.txt --cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64 --ratio=1.45 --mem-size=4GB --num-cpus=8 -c '/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang' '--options=262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/14.txt_0;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/14.txt_1;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/14.txt_2;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/14.txt_3;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/14.txt_4;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/14.txt_5;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/14.txt_6;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/14.txt_7'
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+-------InTLB------------------- ranegFile is /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/14.txt_0ratio is 1.45
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Mar  7 2017 22:47:14
+gem5 started Mar  9 2017 01:11:21
+gem5 executing on falcon1, pid 22829
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/RangeMultiple16/fft/RangMultipleC1 configs/example/se.py --rangeFileName=/bigtemp/ml2au/AxBenchResults/Rangefiles/fft/1.txt --cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64 --ratio=4 --mem-size=4GB --num-cpus=8 -c '/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang' '--options=262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/1.txt_0;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/1.txt_1;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/1.txt_2;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/1.txt_3;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/1.txt_4;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/1.txt_5;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/1.txt_6;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/1.txt_7'
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+-------InTLB------------------- ranegFile is /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/1.txt_0ratio is 4
+-------InTLB------------------- ranegFile is /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/14.txt_0ratio is 1.45
+fatal: Can't load object file /bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang
+ @ tick 0
+[create:build/X86/sim/process.cc, line 619]
+Memory Usage: 4317336 KBytes
+Program aborted at tick 0
+--- BEGIN LIBC BACKTRACE ---
+build/X86/gem5.opt(_Z15print_backtracev+0x15)[0x907955]
+build/X86/gem5.opt(_Z12abortHandleri+0x36)[0x917c56]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x10330)[0x7f91f9367330]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x37)[0x7f91f78a7c37]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x148)[0x7f91f78ab028]
+build/X86/gem5.opt(_Z15__exit_epilogueiPKcS0_iS0_+0x1ec)[0xa99cac]
+build/X86/gem5.opt[0x744865]
+build/X86/gem5.opt(_ZN11LiveProcess6createEP17LiveProcessParams+0x1ba)[0x945f7a]
+build/X86/gem5.opt[0xeb092b]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4bd4)[0x7f91f8f32b94]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f91f8f34c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f91f8f32898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f91f8f34c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f91f8f32898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f91f8f34c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f91f8f32898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f91f8f34c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f91f8f32898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f91f8f34c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f91f8f32898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f91f8f34c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f91f8f32898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f91f8f34c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f91f8f32898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4b59)[0x7f91f8f32b19]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f91f8f34c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f91f8f34f22]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x563e)[0x7f91f8f335fe]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f91f8f34c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f91f8f32898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f91f8f34c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f91f8f34f22]
+--- END LIBC BACKTRACE ---
+-------InTLB------------------- ranegFile is /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/1.txt_0ratio is 4
+fatal: Can't load object file /bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang
+ @ tick 0
+[create:build/X86/sim/process.cc, line 619]
+Memory Usage: 4317332 KBytes
+Program aborted at tick 0
+--- BEGIN LIBC BACKTRACE ---
+build/X86/gem5.opt(_Z15print_backtracev+0x15)[0x907955]
+build/X86/gem5.opt(_Z12abortHandleri+0x36)[0x917c56]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x10330)[0x7fd82355d330]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x37)[0x7fd821a9dc37]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x148)[0x7fd821aa1028]
+build/X86/gem5.opt(_Z15__exit_epilogueiPKcS0_iS0_+0x1ec)[0xa99cac]
+build/X86/gem5.opt[0x744865]
+build/X86/gem5.opt(_ZN11LiveProcess6createEP17LiveProcessParams+0x1ba)[0x945f7a]
+build/X86/gem5.opt[0xeb092b]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4bd4)[0x7fd823128b94]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fd82312ac3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fd823128898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fd82312ac3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fd823128898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fd82312ac3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fd823128898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fd82312ac3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fd823128898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fd82312ac3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fd823128898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fd82312ac3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fd823128898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fd82312ac3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fd823128898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4b59)[0x7fd823128b19]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fd82312ac3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7fd82312af22]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x563e)[0x7fd8231295fe]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fd82312ac3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fd823128898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fd82312ac3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7fd82312af22]
+--- END LIBC BACKTRACE ---
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Mar  7 2017 22:47:14
+gem5 started Mar  9 2017 01:11:21
+gem5 executing on falcon1, pid 22831
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/RangeMultiple16/fft/RangMultipleC3 configs/example/se.py --rangeFileName=/bigtemp/ml2au/AxBenchResults/Rangefiles/fft/3.txt --cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64 --ratio=3.2 --mem-size=4GB --num-cpus=8 -c '/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang' '--options=262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/3.txt_0;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/3.txt_1;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/3.txt_2;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/3.txt_3;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/3.txt_4;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/3.txt_5;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/3.txt_6;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/3.txt_7'
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+-------InTLB------------------- ranegFile is /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/3.txt_0ratio is 3.2
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Mar  7 2017 22:47:14
+gem5 started Mar  9 2017 01:11:21
+gem5 executing on falcon1, pid 22837
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/RangeMultiple16/fft/RangMultipleC9 configs/example/se.py --rangeFileName=/bigtemp/ml2au/AxBenchResults/Rangefiles/fft/9.txt --cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64 --ratio=2 --mem-size=4GB --num-cpus=8 -c '/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang' '--options=262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/9.txt_0;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/9.txt_1;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/9.txt_2;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/9.txt_3;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/9.txt_4;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/9.txt_5;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/9.txt_6;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/9.txt_7'
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+-------InTLB------------------- ranegFile is /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/9.txt_0ratio is 2
+-------InTLB------------------- ranegFile is /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/3.txt_0ratio is 3.2
+fatal: Can't load object file /bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang
+ @ tick 0
+[create:build/X86/sim/process.cc, line 619]
+Memory Usage: 4317336 KBytes
+Program aborted at tick 0
+--- BEGIN LIBC BACKTRACE ---
+build/X86/gem5.opt(_Z15print_backtracev+0x15)[0x907955]
+build/X86/gem5.opt(_Z12abortHandleri+0x36)[0x917c56]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x10330)[0x7f01c37aa330]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x37)[0x7f01c1ceac37]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x148)[0x7f01c1cee028]
+build/X86/gem5.opt(_Z15__exit_epilogueiPKcS0_iS0_+0x1ec)[0xa99cac]
+build/X86/gem5.opt[0x744865]
+build/X86/gem5.opt(_ZN11LiveProcess6createEP17LiveProcessParams+0x1ba)[0x945f7a]
+build/X86/gem5.opt[0xeb092b]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4bd4)[0x7f01c3375b94]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f01c3377c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f01c3375898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f01c3377c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f01c3375898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f01c3377c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f01c3375898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f01c3377c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f01c3375898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f01c3377c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f01c3375898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f01c3377c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f01c3375898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f01c3377c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f01c3375898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4b59)[0x7f01c3375b19]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f01c3377c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f01c3377f22]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x563e)[0x7f01c33765fe]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f01c3377c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f01c3375898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f01c3377c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f01c3377f22]
+--- END LIBC BACKTRACE ---
+-------InTLB------------------- ranegFile is /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/9.txt_0ratio is 2
+fatal: Can't load object file /bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang
+ @ tick 0
+[create:build/X86/sim/process.cc, line 619]
+Memory Usage: 4317336 KBytes
+Program aborted at tick 0
+--- BEGIN LIBC BACKTRACE ---
+build/X86/gem5.opt(_Z15print_backtracev+0x15)[0x907955]
+build/X86/gem5.opt(_Z12abortHandleri+0x36)[0x917c56]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x10330)[0x7f9531f74330]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x37)[0x7f95304b4c37]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x148)[0x7f95304b8028]
+build/X86/gem5.opt(_Z15__exit_epilogueiPKcS0_iS0_+0x1ec)[0xa99cac]
+build/X86/gem5.opt[0x744865]
+build/X86/gem5.opt(_ZN11LiveProcess6createEP17LiveProcessParams+0x1ba)[0x945f7a]
+build/X86/gem5.opt[0xeb092b]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4bd4)[0x7f9531b3fb94]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f9531b41c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f9531b3f898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f9531b41c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f9531b3f898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f9531b41c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f9531b3f898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f9531b41c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f9531b3f898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f9531b41c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f9531b3f898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f9531b41c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f9531b3f898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f9531b41c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f9531b3f898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4b59)[0x7f9531b3fb19]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f9531b41c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f9531b41f22]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x563e)[0x7f9531b405fe]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f9531b41c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f9531b3f898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f9531b41c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f9531b41f22]
+--- END LIBC BACKTRACE ---
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Mar  7 2017 22:47:14
+gem5 started Mar  9 2017 01:11:21
+gem5 executing on falcon1, pid 22840
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/RangeMultiple16/fft/RangMultipleC12 configs/example/se.py --rangeFileName=/bigtemp/ml2au/AxBenchResults/Rangefiles/fft/12.txt --cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64 --ratio=1.6 --mem-size=4GB --num-cpus=8 -c '/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang' '--options=262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/12.txt_0;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/12.txt_1;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/12.txt_2;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/12.txt_3;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/12.txt_4;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/12.txt_5;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/12.txt_6;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/12.txt_7'
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+-------InTLB------------------- ranegFile is /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/12.txt_0ratio is 1.6
+-------InTLB------------------- ranegFile is /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/12.txt_0ratio is 1.6
+fatal: Can't load object file /bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang
+ @ tick 0
+[create:build/X86/sim/process.cc, line 619]
+Memory Usage: 4317332 KBytes
+Program aborted at tick 0
+--- BEGIN LIBC BACKTRACE ---
+build/X86/gem5.opt(_Z15print_backtracev+0x15)[0x907955]
+build/X86/gem5.opt(_Z12abortHandleri+0x36)[0x917c56]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x10330)[0x7f94aa08d330]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x37)[0x7f94a85cdc37]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x148)[0x7f94a85d1028]
+build/X86/gem5.opt(_Z15__exit_epilogueiPKcS0_iS0_+0x1ec)[0xa99cac]
+build/X86/gem5.opt[0x744865]
+build/X86/gem5.opt(_ZN11LiveProcess6createEP17LiveProcessParams+0x1ba)[0x945f7a]
+build/X86/gem5.opt[0xeb092b]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4bd4)[0x7f94a9c58b94]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f94a9c5ac3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f94a9c58898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f94a9c5ac3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f94a9c58898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f94a9c5ac3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f94a9c58898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f94a9c5ac3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f94a9c58898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f94a9c5ac3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f94a9c58898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f94a9c5ac3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f94a9c58898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f94a9c5ac3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f94a9c58898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4b59)[0x7f94a9c58b19]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f94a9c5ac3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f94a9c5af22]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x563e)[0x7f94a9c595fe]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f94a9c5ac3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f94a9c58898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f94a9c5ac3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f94a9c5af22]
+--- END LIBC BACKTRACE ---
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Mar  7 2017 22:47:14
+gem5 started Mar  9 2017 01:11:21
+gem5 executing on falcon1, pid 22844
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/RangeMultiple16/fft/RangMultipleC15 configs/example/se.py --rangeFileName=/bigtemp/ml2au/AxBenchResults/Rangefiles/fft/15.txt --cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64 --ratio=1.39 --mem-size=4GB --num-cpus=8 -c '/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang' '--options=262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/15.txt_0;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/15.txt_1;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/15.txt_2;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/15.txt_3;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/15.txt_4;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/15.txt_5;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/15.txt_6;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/15.txt_7'
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+-------InTLB------------------- ranegFile is /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/15.txt_0ratio is 1.39
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Mar  7 2017 22:47:14
+gem5 started Mar  9 2017 01:11:21
+gem5 executing on falcon1, pid 22852
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/RangeMultiple16/fft/RangMultipleC23 configs/example/se.py --rangeFileName=/bigtemp/ml2au/AxBenchResults/Rangefiles/fft/23.txt --cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64 --ratio=1 --mem-size=4GB --num-cpus=8 -c '/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang' '--options=262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/23.txt_0;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/23.txt_1;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/23.txt_2;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/23.txt_3;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/23.txt_4;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/23.txt_5;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/23.txt_6;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/23.txt_7'
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+-------InTLB------------------- ranegFile is /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/23.txt_0ratio is 1
+-------InTLB------------------- ranegFile is /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/15.txt_0ratio is 1.39
+fatal: Can't load object file /bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang
+ @ tick 0
+[create:build/X86/sim/process.cc, line 619]
+Memory Usage: 4317332 KBytes
+Program aborted at tick 0
+--- BEGIN LIBC BACKTRACE ---
+build/X86/gem5.opt(_Z15print_backtracev+0x15)[0x907955]
+-------InTLB------------------- ranegFile is /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/23.txt_0ratio is 1
+build/X86/gem5.opt(_Z12abortHandleri+0x36)[0x917c56]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x10330)[0x7f8eb92f5330]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x37)[0x7f8eb7835c37]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x148)[0x7f8eb7839028]
+fatal: Can't load object file /bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang
+build/X86/gem5.opt(_Z15__exit_epilogueiPKcS0_iS0_+0x1ec)[0xa99cac]
+ @ tick 0
+[create:build/X86/sim/process.cc, line 619]
+Memory Usage: 4317332 KBytes
+Program aborted at tick 0
+--- BEGIN LIBC BACKTRACE ---
+build/X86/gem5.opt[0x744865]
+build/X86/gem5.opt(_Z15print_backtracev+0x15)[0x907955]
+build/X86/gem5.opt(_ZN11LiveProcess6createEP17LiveProcessParams+0x1ba)[0x945f7a]
+build/X86/gem5.opt(_Z12abortHandleri+0x36)[0x917c56]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x10330)[0x7f3c8eb93330]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x37)[0x7f3c8d0d3c37]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x148)[0x7f3c8d0d7028]
+build/X86/gem5.opt(_Z15__exit_epilogueiPKcS0_iS0_+0x1ec)[0xa99cac]
+build/X86/gem5.opt[0xeb092b]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4bd4)[0x7f8eb8ec0b94]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f8eb8ec2c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f8eb8ec0898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f8eb8ec2c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f8eb8ec0898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f8eb8ec2c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f8eb8ec0898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f8eb8ec2c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f8eb8ec0898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f8eb8ec2c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f8eb8ec0898]
+build/X86/gem5.opt[0x744865]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f8eb8ec2c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f8eb8ec0898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f8eb8ec2c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f8eb8ec0898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4b59)[0x7f8eb8ec0b19]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f8eb8ec2c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f8eb8ec2f22]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x563e)[0x7f8eb8ec15fe]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f8eb8ec2c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f8eb8ec0898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f8eb8ec2c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f8eb8ec2f22]
+--- END LIBC BACKTRACE ---
+build/X86/gem5.opt(_ZN11LiveProcess6createEP17LiveProcessParams+0x1ba)[0x945f7a]
+build/X86/gem5.opt[0xeb092b]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4bd4)[0x7f3c8e75eb94]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f3c8e760c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f3c8e75e898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f3c8e760c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f3c8e75e898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f3c8e760c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f3c8e75e898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f3c8e760c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f3c8e75e898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f3c8e760c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f3c8e75e898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f3c8e760c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f3c8e75e898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f3c8e760c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f3c8e75e898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4b59)[0x7f3c8e75eb19]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f3c8e760c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f3c8e760f22]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x563e)[0x7f3c8e75f5fe]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f3c8e760c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f3c8e75e898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f3c8e760c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f3c8e760f22]
+--- END LIBC BACKTRACE ---
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Mar  7 2017 22:47:14
+gem5 started Mar  9 2017 01:11:21
+gem5 executing on falcon1, pid 22847
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/RangeMultiple16/fft/RangMultipleC18 configs/example/se.py --rangeFileName=/bigtemp/ml2au/AxBenchResults/Rangefiles/fft/18.txt --cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64 --ratio=1.18 --mem-size=4GB --num-cpus=8 -c '/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang' '--options=262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/18.txt_0;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/18.txt_1;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/18.txt_2;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/18.txt_3;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/18.txt_4;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/18.txt_5;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/18.txt_6;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/18.txt_7'
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+-------InTLB------------------- ranegFile is /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/18.txt_0ratio is 1.18
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Mar  7 2017 22:47:14
+gem5 started Mar  9 2017 01:11:21
+gem5 executing on falcon1, pid 22848
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/RangeMultiple16/fft/RangMultipleC19 configs/example/se.py --rangeFileName=/bigtemp/ml2au/AxBenchResults/Rangefiles/fft/19.txt --cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64 --ratio=1.14 --mem-size=4GB --num-cpus=8 -c '/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang' '--options=262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/19.txt_0;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/19.txt_1;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/19.txt_2;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/19.txt_3;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/19.txt_4;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/19.txt_5;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/19.txt_6;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/19.txt_7'
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+-------InTLB------------------- ranegFile is /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/19.txt_0ratio is 1.14
+-------InTLB------------------- ranegFile is /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/18.txt_0ratio is 1.18
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Mar  7 2017 22:47:14
+gem5 started Mar  9 2017 01:11:21
+gem5 executing on falcon1, pid 22841
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/RangeMultiple16/fft/RangMultipleC13 configs/example/se.py --rangeFileName=/bigtemp/ml2au/AxBenchResults/Rangefiles/fft/13.txt --cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64 --ratio=1.52 --mem-size=4GB --num-cpus=8 -c '/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang' '--options=262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/13.txt_0;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/13.txt_1;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/13.txt_2;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/13.txt_3;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/13.txt_4;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/13.txt_5;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/13.txt_6;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/13.txt_7'
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+fatal: Can't load object file /bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang
+ @ tick 0
+[create:build/X86/sim/process.cc, line 619]
+Memory Usage: 4317336 KBytes
+Program aborted at tick 0
+--- BEGIN LIBC BACKTRACE ---
+build/X86/gem5.opt(_Z15print_backtracev+0x15)[0x907955]
+build/X86/gem5.opt(_Z12abortHandleri+0x36)[0x917c56]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x10330)[0x7fd96a1d4330]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x37)[0x7fd968714c37]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x148)[0x7fd968718028]
+build/X86/gem5.opt(_Z15__exit_epilogueiPKcS0_iS0_+0x1ec)[0xa99cac]
+build/X86/gem5.opt[0x744865]
+build/X86/gem5.opt(_ZN11LiveProcess6createEP17LiveProcessParams+0x1ba)[0x945f7a]
+build/X86/gem5.opt[0xeb092b]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4bd4)[0x7fd969d9fb94]
+-------InTLB------------------- ranegFile is /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/13.txt_0ratio is 1.52
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fd969da1c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fd969d9f898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fd969da1c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fd969d9f898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fd969da1c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fd969d9f898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fd969da1c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fd969d9f898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fd969da1c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fd969d9f898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fd969da1c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fd969d9f898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fd969da1c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fd969d9f898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4b59)[0x7fd969d9fb19]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fd969da1c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7fd969da1f22]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x563e)[0x7fd969da05fe]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fd969da1c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fd969d9f898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fd969da1c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7fd969da1f22]
+--- END LIBC BACKTRACE ---
+-------InTLB------------------- ranegFile is /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/19.txt_0ratio is 1.14
+fatal: gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Mar  7 2017 22:47:14
+gem5 started Mar  9 2017 01:11:21
+gem5 executing on falcon1, pid 22851
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/RangeMultiple16/fft/RangMultipleC22 configs/example/se.py --rangeFileName=/bigtemp/ml2au/AxBenchResults/Rangefiles/fft/22.txt --cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64 --ratio=1.03 --mem-size=4GB --num-cpus=8 -c '/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang' '--options=262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/22.txt_0;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/22.txt_1;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/22.txt_2;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/22.txt_3;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/22.txt_4;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/22.txt_5;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/22.txt_6;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/22.txt_7'
+
+Global frequency set at 1000000000000 ticks per second
+Can't load object file /bigtemp/ml2au/AxBenchResults/binRangeOut/fftRanggem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Mar  7 2017 22:47:14
+gem5 started Mar  9 2017 01:11:21
+gem5 executing on falcon1, pid 22834
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/RangeMultiple16/fft/RangMultipleC6 configs/example/se.py --rangeFileName=/bigtemp/ml2au/AxBenchResults/Rangefiles/fft/6.txt --cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64 --ratio=2.46 --mem-size=4GB --num-cpus=8 -c '/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang' '--options=262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/6.txt_0;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/6.txt_1;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/6.txt_2;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/6.txt_3;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/6.txt_4;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/6.txt_5;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/6.txt_6;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/6.txt_7'
+
+Global frequency set at 1000000000000 ticks per second
+-------InTLB------------------- ranegFile is /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/13.txt_0ratio is 1.52
+warngem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Mar  7 2017 22:47:14
+gem5 started Mar  9 2017 01:11:21
+gem5 executing on falcon1, pid 22849
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/RangeMultiple16/fft/RangMultipleC20 configs/example/se.py --rangeFileName=/bigtemp/ml2au/AxBenchResults/Rangefiles/fft/20.txt --cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64 --ratio=1.10 --mem-size=4GB --num-cpus=8 -c '/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang' '--options=262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/20.txt_0;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/20.txt_1;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/20.txt_2;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/20.txt_3;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/20.txt_4;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/20.txt_5;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/20.txt_6;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/20.txt_7'
+
+Global frequency set at 1000000000000 ticks per second
+: DRAM device capacity (8192warn Mbytes) does not match the address range assigned (gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Mar  7 2017 22:47:14
+gem5 started Mar  9 2017 01:11:21
+gem5 executing on falcon1, pid 22838
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/RangeMultiple16/fft/RangMultipleC10 configs/example/se.py --rangeFileName=/bigtemp/ml2au/AxBenchResults/Rangefiles/fft/10.txt --cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64 --ratio=1.77 --mem-size=4GB --num-cpus=8 -c '/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang' '--options=262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/10.txt_0;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/10.txt_1;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/10.txt_2;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/10.txt_3;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/10.txt_4;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/10.txt_5;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/10.txt_6;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/10.txt_7'
+
+Global frequency set at 1000000000000 ticks per second
+4096:  Mbytes)DRAM device capacity (gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Mar  7 2017 22:47:14
+gem5 started Mar  9 2017 01:11:21
+gem5 executing on falcon1, pid 22835
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/RangeMultiple16/fft/RangMultipleC7 configs/example/se.py --rangeFileName=/bigtemp/ml2au/AxBenchResults/Rangefiles/fft/7.txt --cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64 --ratio=2.28 --mem-size=4GB --num-cpus=8 -c '/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang' '--options=262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/7.txt_0;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/7.txt_1;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/7.txt_2;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/7.txt_3;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/7.txt_4;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/7.txt_5;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/7.txt_6;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/7.txt_7'
+
+Global frequency set at 1000000000000 ticks per second
+8192
+warn Mbytes) does not match the address range assigned (4096warn Mbytes): : DRAM device capacity (
+DRAM device capacity (8192 Mbytes) does not match the address range assigned (40968192 Mbytes) does not match the address range assigned ( Mbytes)4096 Mbytes)gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Mar  7 2017 22:47:14
+gem5 started Mar  9 2017 01:11:21
+gem5 executing on falcon1, pid 22845
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/RangeMultiple16/fft/RangMultipleC16 configs/example/se.py --rangeFileName=/bigtemp/ml2au/AxBenchResults/Rangefiles/fft/16.txt --cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64 --ratio=1.33 --mem-size=4GB --num-cpus=8 -c '/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang' '--options=262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/16.txt_0;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/16.txt_1;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/16.txt_2;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/16.txt_3;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/16.txt_4;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/16.txt_5;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/16.txt_6;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/16.txt_7'
+
+Global frequency set at 1000000000000 ticks per second
+
+
+warn
+: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)warn
+: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+ @ tick 0
+[create:build/X86/sim/process.cc, line 619]
+Memory Usage: 4317336 KBytes
+Program aborted at tick 0
+--- BEGIN LIBC BACKTRACE ---
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Mar  7 2017 22:47:14
+gem5 started Mar  9 2017 01:11:21
+gem5 executing on falcon1, pid 22850
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/RangeMultiple16/fft/RangMultipleC21 configs/example/se.py --rangeFileName=/bigtemp/ml2au/AxBenchResults/Rangefiles/fft/21.txt --cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64 --ratio=1.06 --mem-size=4GB --num-cpus=8 -c '/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang' '--options=262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/21.txt_0;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/21.txt_1;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/21.txt_2;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/21.txt_3;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/21.txt_4;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/21.txt_5;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/21.txt_6;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/21.txt_7'
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+build/X86/gem5.opt(_Z15print_backtracev+0x15)[0x907955]
+build/X86/gem5.opt(_Z12abortHandleri+0x36)[0x917c56]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x10330)[0x7f2c032ef330]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x37)[0x7f2c0182fc37]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x148)[0x7f2c01833028]
+build/X86/gem5.opt(_Z15__exit_epilogueiPKcS0_iS0_+0x1ec)[0xa99cac]
+fatal: Can't load object file /bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang
+ @ tick 0
+[create:build/X86/sim/process.cc, line 619]
+Memory Usage: 4317332 KBytes
+Program aborted at tick 0
+build/X86/gem5.opt[0x744865]
+-------InTLB------------------- ranegFile is /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/16.txt_0ratio is 1.33
+--- BEGIN LIBC BACKTRACE ---
+-------InTLB------------------- ranegFile is /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/22.txt_0ratio is 1.03
+build/X86/gem5.opt(_ZN11LiveProcess6createEP17LiveProcessParams+0x1ba)[0x945f7a]
+-------InTLB------------------- ranegFile is /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/21.txt_0ratio is 1.06
+build/X86/gem5.opt(_Z15print_backtracev+0x15)[0x907955]
+build/X86/gem5.opt[0xeb092b]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4bd4)[0x7f2c02ebab94]
+build/X86/gem5.opt(_Z12abortHandleri+0x36)[0x917c56]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x10330)[0x7f08e4fe6330]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f2c02ebcc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f2c02eba898]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x37)[0x7f08e3526c37]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f2c02ebcc3d]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x148)[0x7f08e352a028]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f2c02eba898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f2c02ebcc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f2c02eba898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f2c02ebcc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f2c02eba898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f2c02ebcc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f2c02eba898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f2c02ebcc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f2c02eba898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f2c02ebcc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f2c02eba898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4b59)[0x7f2c02ebab19]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f2c02ebcc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f2c02ebcf22]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x563e)[0x7f2c02ebb5fe]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f2c02ebcc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f2c02eba898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f2c02ebcc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f2c02ebcf22]
+--- END LIBC BACKTRACE ---
+build/X86/gem5.opt(_Z15__exit_epilogueiPKcS0_iS0_+0x1ec)[0xa99cac]
+-------InTLB------------------- ranegFile is /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/20.txt_0ratio is 1.1
+-------InTLB------------------- ranegFile is /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/7.txt_0ratio is 2.28
+-------InTLB------------------- ranegFile is /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/6.txt_0ratio is 2.46
+-------InTLB------------------- ranegFile is /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/10.txt_0ratio is 1.77
+build/X86/gem5.opt[0x744865]
+build/X86/gem5.opt(_ZN11LiveProcess6createEP17LiveProcessParams+0x1ba)[0x945f7a]
+build/X86/gem5.opt[0xeb092b]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4bd4)[0x7f08e4bb1b94]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f08e4bb3c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f08e4bb1898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f08e4bb3c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f08e4bb1898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f08e4bb3c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f08e4bb1898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f08e4bb3c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f08e4bb1898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f08e4bb3c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f08e4bb1898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f08e4bb3c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f08e4bb1898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f08e4bb3c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f08e4bb1898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4b59)[0x7f08e4bb1b19]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f08e4bb3c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f08e4bb3f22]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x563e)[0x7f08e4bb25fe]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f08e4bb3c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f08e4bb1898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f08e4bb3c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f08e4bb3f22]
+--- END LIBC BACKTRACE ---
+-------InTLB------------------- ranegFile is /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/16.txt_0ratio is 1.33
+-------InTLB------------------- ranegFile is /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/21.txt_0ratio is 1.06
+fatal: Can't load object file /bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang
+ @ tick 0
+[create:build/X86/sim/process.cc, line 619]
+Memory Usage: 4317336 KBytes
+Program aborted at tick 0
+--- BEGIN LIBC BACKTRACE ---
+fatal: Can't load object file /bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang
+build/X86/gem5.opt(_Z15print_backtracev+0x15)[0x907955]
+ @ tick 0
+[create:build/X86/sim/process.cc, line 619]
+Memory Usage: 4317336 KBytes
+Program aborted at tick 0
+--- BEGIN LIBC BACKTRACE ---
+build/X86/gem5.opt(_Z12abortHandleri+0x36)[0x917c56]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x10330)[0x7ff20e8d1330]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x37)[0x7ff20ce11c37]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x148)[0x7ff20ce15028]
+build/X86/gem5.opt(_Z15print_backtracev+0x15)[0x907955]
+build/X86/gem5.opt(_Z12abortHandleri+0x36)[0x917c56]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x10330)[0x7fe7cbb12330]
+build/X86/gem5.opt(_Z15__exit_epilogueiPKcS0_iS0_+0x1ec)[0xa99cac]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x37)[0x7fe7ca052c37]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x148)[0x7fe7ca056028]
+build/X86/gem5.opt[0x744865]
+build/X86/gem5.opt(_Z15__exit_epilogueiPKcS0_iS0_+0x1ec)[0xa99cac]
+build/X86/gem5.opt(_ZN11LiveProcess6createEP17LiveProcessParams+0x1ba)[0x945f7a]
+build/X86/gem5.opt[0x744865]
+-------InTLB------------------- ranegFile is /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/22.txt_0ratio is 1.03
+build/X86/gem5.opt(_ZN11LiveProcess6createEP17LiveProcessParams+0x1ba)[0x945f7a]
+build/X86/gem5.opt[0xeb092b]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4bd4)[0x7ff20e49cb94]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7ff20e49ec3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7ff20e49c898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7ff20e49ec3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7ff20e49c898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7ff20e49ec3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7ff20e49c898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7ff20e49ec3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7ff20e49c898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7ff20e49ec3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7ff20e49c898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7ff20e49ec3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7ff20e49c898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7ff20e49ec3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7ff20e49c898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4b59)[0x7ff20e49cb19]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7ff20e49ec3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7ff20e49ef22]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x563e)[0x7ff20e49d5fe]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7ff20e49ec3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7ff20e49c898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7ff20e49ec3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7ff20e49ef22]
+--- END LIBC BACKTRACE ---
+build/X86/gem5.opt[0xeb092b]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4bd4)[0x7fe7cb6ddb94]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fe7cb6dfc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fe7cb6dd898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fe7cb6dfc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fe7cb6dd898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fe7cb6dfc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fe7cb6dd898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fe7cb6dfc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fe7cb6dd898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fe7cb6dfc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fe7cb6dd898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fe7cb6dfc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fe7cb6dd898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fe7cb6dfc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fe7cb6dd898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4b59)[0x7fe7cb6ddb19]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fe7cb6dfc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7fe7cb6dff22]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x563e)[0x7fe7cb6de5fe]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fe7cb6dfc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fe7cb6dd898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fe7cb6dfc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7fe7cb6dff22]
+--- END LIBC BACKTRACE ---
+fatal: Can't load object file /bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang
+ @ tick 0
+[create:build/X86/sim/process.cc, line 619]
+Memory Usage: 4317336 KBytes
+Program aborted at tick 0
+--- BEGIN LIBC BACKTRACE ---
+build/X86/gem5.opt(_Z15print_backtracev+0x15)[0x907955]
+build/X86/gem5.opt(_Z12abortHandleri+0x36)[0x917c56]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x10330)[0x7f2504c22330]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x37)[0x7f2503162c37]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x148)[0x7f2503166028]
+build/X86/gem5.opt(_Z15__exit_epilogueiPKcS0_iS0_+0x1ec)[0xa99cac]
+build/X86/gem5.opt[0x744865]
+build/X86/gem5.opt(_ZN11LiveProcess6createEP17LiveProcessParams+0x1ba)[0x945f7a]
+-------InTLB------------------- ranegFile is /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/7.txt_0ratio is 2.28
+-------InTLB------------------- ranegFile is /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/20.txt_0ratio is 1.1
+-------InTLB------------------- ranegFile is /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/10.txt_0ratio is 1.77
+build/X86/gem5.opt[0xeb092b]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4bd4)[0x7f25047edb94]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f25047efc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f25047ed898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f25047efc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f25047ed898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f25047efc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f25047ed898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f25047efc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f25047ed898]
+-------InTLB------------------- ranegFile is /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/6.txt_0ratio is 2.46
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f25047efc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f25047ed898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f25047efc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f25047ed898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f25047efc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f25047ed898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4b59)[0x7f25047edb19]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f25047efc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f25047eff22]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x563e)[0x7f25047ee5fe]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f25047efc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f25047ed898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f25047efc3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f25047eff22]
+--- END LIBC BACKTRACE ---
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Mar  7 2017 22:47:14
+gem5 started Mar  9 2017 01:11:21
+gem5 executing on falcon1, pid 22830
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/RangeMultiple16/fft/RangMultipleC2 configs/example/se.py --rangeFileName=/bigtemp/ml2au/AxBenchResults/Rangefiles/fft/2.txt --cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64 --ratio=3.55 --mem-size=4GB --num-cpus=8 -c '/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang' '--options=262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/2.txt_0;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/2.txt_1;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/2.txt_2;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/2.txt_3;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/2.txt_4;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/2.txt_5;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/2.txt_6;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/2.txt_7'
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+fatal: Can't load object file /bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang
+fatal: Can't load object file /bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang
+ @ tick 0
+[create:build/X86/sim/process.cc, line 619]
+ @ tick Memory Usage: fatal43173360:  KBytes
+Can't load object file 
+[/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRangcreate
+:build/X86/sim/process.ccProgram aborted at tick , line 0619
+]
+Memory Usage: 4317332 KBytes
+Program aborted at tick 0
+ @ tick 0
+[create:build/X86/sim/process.cc, line 619]
+Memory Usage: 4317332 KBytes
+--- BEGIN LIBC BACKTRACE ---
+--- BEGIN LIBC BACKTRACE ---
+Program aborted at tick 0
+fatal: Can't load object file /bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang
+--- BEGIN LIBC BACKTRACE ---
+ @ tick 0
+[create:build/X86/sim/process.cc, line 619]
+Memory Usage: 4317332 KBytes
+Program aborted at tick 0
+--- BEGIN LIBC BACKTRACE ---
+build/X86/gem5.opt(_Z15print_backtracev+0x15)[0x907955]
+build/X86/gem5.opt(_Z15print_backtracev+0x15)[0x907955]
+build/X86/gem5.opt(_Z15print_backtracev+0x15)[0x907955]
+build/X86/gem5.opt(_Z15print_backtracev+0x15)[0x907955]
+build/X86/gem5.opt(_Z12abortHandleri+0x36)[0x917c56]
+build/X86/gem5.opt(_Z12abortHandleri+0x36)[0x917c56]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x10330)[0x7f68b9641330]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x10330)[0x7fe2b6b8a330]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x37)[0x7f68b7b81c37]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x37)[0x7fe2b50cac37]
+build/X86/gem5.opt(_Z12abortHandleri+0x36)[0x917c56]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x148)[0x7f68b7b85028]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x148)[0x7fe2b50ce028]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x10330)[0x7f4786f63330]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x37)[0x7f47854a3c37]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x148)[0x7f47854a7028]
+build/X86/gem5.opt(_Z12abortHandleri+0x36)[0x917c56]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x10330)[0x7efedf286330]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x37)[0x7efedd7c6c37]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x148)[0x7efedd7ca028]
+build/X86/gem5.opt(_Z15__exit_epilogueiPKcS0_iS0_+0x1ec)[0xa99cac]
+build/X86/gem5.opt(_Z15__exit_epilogueiPKcS0_iS0_+0x1ec)[0xa99cac]
+build/X86/gem5.opt(_Z15__exit_epilogueiPKcS0_iS0_+0x1ec)[0xa99cac]
+-------InTLB------------------- ranegFile is /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/2.txt_0ratio is 3.55
+build/X86/gem5.opt(_Z15__exit_epilogueiPKcS0_iS0_+0x1ec)[0xa99cac]
+build/X86/gem5.opt[0x744865]
+build/X86/gem5.opt[0x744865]
+build/X86/gem5.opt[0x744865]
+build/X86/gem5.opt[0x744865]
+build/X86/gem5.opt(_ZN11LiveProcess6createEP17LiveProcessParams+0x1ba)[0x945f7a]
+build/X86/gem5.opt(_ZN11LiveProcess6createEP17LiveProcessParams+0x1ba)[0x945f7a]
+build/X86/gem5.opt(_ZN11LiveProcess6createEP17LiveProcessParams+0x1ba)[0x945f7a]
+build/X86/gem5.opt(_ZN11LiveProcess6createEP17LiveProcessParams+0x1ba)[0x945f7a]
+build/X86/gem5.opt[0xeb092b]
+build/X86/gem5.opt[0xeb092b]
+build/X86/gem5.opt[0xeb092b]
+build/X86/gem5.opt[0xeb092b]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4bd4)[0x7f68b920cb94]
+-------InTLB------------------- ranegFile is /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/2.txt_0ratio is 3.55
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4bd4)[0x7fe2b6755b94]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4bd4)[0x7f4786b2eb94]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4bd4)[0x7efedee51b94]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f68b920ec3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fe2b6757c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7efedee53c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f4786b30c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f68b920c898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fe2b6755898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7efedee51898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f4786b2e898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f68b920ec3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fe2b6757c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7efedee53c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f4786b30c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7efedee51898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f68b920c898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fe2b6755898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f4786b2e898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7efedee53c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f68b920ec3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fe2b6757c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f4786b30c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7efedee51898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f4786b2e898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f68b920c898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7efedee53c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fe2b6755898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f4786b30c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7efedee51898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f68b920ec3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fe2b6757c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f4786b2e898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7efedee53c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f68b920c898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f4786b30c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fe2b6755898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7efedee51898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f4786b2e898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7efedee53c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f68b920ec3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fe2b6757c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f4786b30c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7efedee51898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f68b920c898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fe2b6755898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f4786b2e898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7efedee53c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f4786b30c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7efedee51898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f68b920ec3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fe2b6757c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f4786b2e898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4b59)[0x7efedee51b19]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f68b920c898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fe2b6755898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4b59)[0x7f4786b2eb19]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7efedee53c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f4786b30c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7efedee53f22]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f68b920ec3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fe2b6757c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f4786b30f22]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x563e)[0x7efedee525fe]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f68b920c898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fe2b6755898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x563e)[0x7f4786b2f5fe]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7efedee53c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f4786b30c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7efedee51898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4b59)[0x7f68b920cb19]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4b59)[0x7fe2b6755b19]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f4786b2e898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7efedee53c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f4786b30c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7efedee53f22]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f68b920ec3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fe2b6757c3d]
+--- END LIBC BACKTRACE ---
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f4786b30f22]
+--- END LIBC BACKTRACE ---
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f68b920ef22]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7fe2b6757f22]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x563e)[0x7f68b920d5fe]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x563e)[0x7fe2b67565fe]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f68b920ec3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fe2b6757c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f68b920c898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7fe2b6755898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f68b920ec3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7fe2b6757c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f68b920ef22]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7fe2b6757f22]
+--- END LIBC BACKTRACE ---
+--- END LIBC BACKTRACE ---
+fatal: Can't load object file /bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang
+ @ tick 0
+[create:build/X86/sim/process.cc, line 619]
+Memory Usage: 4317332 KBytes
+Program aborted at tick 0
+--- BEGIN LIBC BACKTRACE ---
+build/X86/gem5.opt(_Z15print_backtracev+0x15)[0x907955]
+build/X86/gem5.opt(_Z12abortHandleri+0x36)[0x917c56]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x10330)[0x7f6e03006330]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x37)[0x7f6e01546c37]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x148)[0x7f6e0154a028]
+build/X86/gem5.opt(_Z15__exit_epilogueiPKcS0_iS0_+0x1ec)[0xa99cac]
+build/X86/gem5.opt[0x744865]
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Mar  7 2017 22:47:14
+gem5 started Mar  9 2017 01:11:21
+gem5 executing on falcon1, pid 22839
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/RangeMultiple16/fft/RangMultipleC11 configs/example/se.py --rangeFileName=/bigtemp/ml2au/AxBenchResults/Rangefiles/fft/11.txt --cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64 --ratio=1.68 --mem-size=4GB --num-cpus=8 -c '/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang;/bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang' '--options=262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/11.txt_0;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/11.txt_1;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/11.txt_2;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/11.txt_3;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/11.txt_4;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/11.txt_5;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/11.txt_6;262144 /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/11.txt_7'
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+build/X86/gem5.opt(_ZN11LiveProcess6createEP17LiveProcessParams+0x1ba)[0x945f7a]
+build/X86/gem5.opt[0xeb092b]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4bd4)[0x7f6e02bd1b94]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f6e02bd3c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f6e02bd1898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f6e02bd3c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f6e02bd1898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f6e02bd3c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f6e02bd1898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f6e02bd3c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f6e02bd1898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f6e02bd3c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f6e02bd1898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f6e02bd3c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f6e02bd1898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f6e02bd3c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f6e02bd1898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4b59)[0x7f6e02bd1b19]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f6e02bd3c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f6e02bd3f22]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x563e)[0x7f6e02bd25fe]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f6e02bd3c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f6e02bd1898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f6e02bd3c3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f6e02bd3f22]
+--- END LIBC BACKTRACE ---
+-------InTLB------------------- ranegFile is /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/11.txt_0ratio is 1.68
+-------InTLB------------------- ranegFile is /bigtemp/ml2au/AxBenchResults/Rangefiles/fft/11.txt_0ratio is 1.68
+fatal: Can't load object file /bigtemp/ml2au/AxBenchResults/binRangeOut/fftRang
+ @ tick 0
+[create:build/X86/sim/process.cc, line 619]
+Memory Usage: 4317336 KBytes
+Program aborted at tick 0
+--- BEGIN LIBC BACKTRACE ---
+build/X86/gem5.opt(_Z15print_backtracev+0x15)[0x907955]
+build/X86/gem5.opt(_Z12abortHandleri+0x36)[0x917c56]
+/lib/x86_64-linux-gnu/libpthread.so.0(+0x10330)[0x7f212f6a1330]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x37)[0x7f212dbe1c37]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x148)[0x7f212dbe5028]
+build/X86/gem5.opt(_Z15__exit_epilogueiPKcS0_iS0_+0x1ec)[0xa99cac]
+build/X86/gem5.opt[0x744865]
+build/X86/gem5.opt(_ZN11LiveProcess6createEP17LiveProcessParams+0x1ba)[0x945f7a]
+build/X86/gem5.opt[0xeb092b]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4bd4)[0x7f212f26cb94]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f212f26ec3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f212f26c898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f212f26ec3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f212f26c898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f212f26ec3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f212f26c898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f212f26ec3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f212f26c898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f212f26ec3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f212f26c898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f212f26ec3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f212f26c898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f212f26ec3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f212f26c898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4b59)[0x7f212f26cb19]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f212f26ec3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f212f26ef22]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x563e)[0x7f212f26d5fe]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f212f26ec3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x48d8)[0x7f212f26c898]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x80d)[0x7f212f26ec3d]
+/usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0(PyEval_EvalCode+0x32)[0x7f212f26ef22]
+--- END LIBC BACKTRACE ---

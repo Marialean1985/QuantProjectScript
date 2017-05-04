@@ -1,0 +1,3 @@
+ConvPath="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/convolution/src"
+cd ${ConvPath}
+g++ -std=c++11 -static convolution.cpp -o convolution 

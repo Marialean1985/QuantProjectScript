@@ -1,0 +1,211 @@
+Short
+1
+--cpu-type=detailed --caches --l2cache  --l1d_size=32kB --l2_size=512kB  --cacheline_size=64 --mem-size=4GB
+2
+--cpu-type=detailed --caches --l2cache  --l1d_size=32kB --l2_size=1MB  --cacheline_size=64  --mem-size=4GB
+3
+--cpu-type=detailed --caches --l2cache  --l1d_size=32kB --l2_size=2MB  --cacheline_size=64  --mem-size=4GB
+4
+--cpu-type=detailed --caches --l2cache  --l1d_size=32kB --l2_size=4MB  --cacheline_size=64  --mem-size=4GB
+5
+--cpu-type=detailed --caches --l2cache  --l1d_size=32kB --l2_size=8MB  --cacheline_size=64  --mem-size=4GB
+6
+--cpu-type=detailed --caches --l2cache  --l1d_size=32kB --l2_size=16MB  --cacheline_size=64  --mem-size=4GB
+7
+--cpu-type=detailed --caches --l2cache  --l1d_size=32kB --l2_size=32MB  --cacheline_size=64  --mem-size=4GB
+8
+--cpu-type=detailed --caches --l2cache  --l1d_size=32kB --l2_size=64MB  --cacheline_size=64  --mem-size=4GB
+9
+
+10
+
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb  3 2017 16:39:30
+gem5 executing on falcon5, pid 8009
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/fft/ShortC9 configs/example/se.py -c /bigtemp/ml2au/AxBenchResults/srcShort/fft --options=262144
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+warn: Sockets disabled, not accepting gdb connections
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb  3 2017 16:39:30
+gem5 executing on falcon5, pid 8007
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/fft/ShortC7 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=32MB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/srcShort/fft --options=262144
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb  3 2017 16:39:30
+gem5 executing on falcon5, pid 8010
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/fft/ShortC10 configs/example/se.py -c /bigtemp/ml2au/AxBenchResults/srcShort/fft --options=262144
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/srcShort/fft'
+info: Increasing stack size by one page.
+warn: ignoring syscall access(...)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb  3 2017 16:39:30
+gem5 executing on falcon5, pid 8008
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/fft/ShortC8 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=64MB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/srcShort/fft --options=262144
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb  3 2017 16:39:30
+gem5 executing on falcon5, pid 8006
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/fft/ShortC6 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=16MB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/srcShort/fft --options=262144
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb  3 2017 16:39:30
+gem5 executing on falcon5, pid 8003
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/fft/ShortC3 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=2MB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/srcShort/fft --options=262144
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb  3 2017 16:39:30
+gem5 executing on falcon5, pid 8002
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/fft/ShortC2 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=1MB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/srcShort/fft --options=262144
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+warn: Sockets disabled, not accepting gdb connections
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+warn: Sockets disabled, not accepting gdb connections
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/srcShort/fft'
+info: Increasing stack size by one page.
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb  3 2017 16:39:30
+gem5 executing on falcon5, pid 8005
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/fft/ShortC5 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=8MB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/srcShort/fft --options=262144
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+warn: Sockets disabled, not accepting gdb connections
+warn: ignoring syscall access(...)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb  3 2017 16:39:30
+gem5 executing on falcon5, pid 8004
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/fft/ShortC4 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=4MB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/srcShort/fft --options=262144
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+warn: Sockets disabled, not accepting gdb connections
+warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb  3 2017 16:39:30
+gem5 executing on falcon5, pid 8001
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/fft/ShortC1 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=512kB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/srcShort/fft --options=262144
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+warn: Sockets disabled, not accepting gdb connections
+warn: Sockets disabled, not accepting gdb connections
+warn: Sockets disabled, not accepting gdb connections
+warn: Sockets disabled, not accepting gdb connections
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/srcShort/fft'
+info: Increasing stack size by one page.
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/srcShort/fft'
+info: Increasing stack size by one page.
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/srcShort/fft'
+info: Increasing stack size by one page.
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/srcShort/fft'
+info: Increasing stack size by one page.
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/srcShort/fft'
+info: Increasing stack size by one page.
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/srcShort/fft'
+info: Increasing stack size by one page.
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/srcShort/fft'
+info: Increasing stack size by one page.
+warn: ignoring syscall access(...)
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/srcShort/fft'
+info: Increasing stack size by one page.
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+Exiting @ tick 1214678364000 because target called exit()
+Exiting @ tick 1214678364000 because target called exit()
+Exiting @ tick 343626514500 because target called exit()
+Exiting @ tick 343626514500 because target called exit()
+Exiting @ tick 343626514500 because target called exit()
+Exiting @ tick 343626514500 because target called exit()
+Exiting @ tick 343812233500 because target called exit()
+Exiting @ tick 422310732500 because target called exit()
+Exiting @ tick 643170971500 because target called exit()
+Exiting @ tick 607707244500 because target called exit()

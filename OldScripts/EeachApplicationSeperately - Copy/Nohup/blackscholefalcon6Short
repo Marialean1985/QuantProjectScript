@@ -1,0 +1,355 @@
+Short
+blackscholes.sh: line 2: /bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/blackscholes/test.data/input/blackscholesTest_200K.data : No such file or directory
+blackscholes.sh: line 3: /bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/blackscholes/test.data/input/blackscholesTest_400K.data : No such file or directory
+1
+--cpu-type=detailed --caches --l2cache  --l1d_size=32kB --l2_size=512kB  --cacheline_size=64 --mem-size=4GB
+2
+--cpu-type=detailed --caches --l2cache  --l1d_size=32kB --l2_size=1MB  --cacheline_size=64  --mem-size=4GB
+3
+--cpu-type=detailed --caches --l2cache  --l1d_size=32kB --l2_size=2MB  --cacheline_size=64  --mem-size=4GB
+4
+--cpu-type=detailed --caches --l2cache  --l1d_size=32kB --l2_size=4MB  --cacheline_size=64  --mem-size=4GB
+5
+--cpu-type=detailed --caches --l2cache  --l1d_size=32kB --l2_size=8MB  --cacheline_size=64  --mem-size=4GB
+6
+--cpu-type=detailed --caches --l2cache  --l1d_size=32kB --l2_size=16MB  --cacheline_size=64  --mem-size=4GB
+7
+--cpu-type=detailed --caches --l2cache  --l1d_size=32kB --l2_size=32MB  --cacheline_size=64  --mem-size=4GB
+8
+--cpu-type=detailed --caches --l2cache  --l1d_size=32kB --l2_size=64MB  --cacheline_size=64  --mem-size=4GB
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb  3 2017 16:53:41
+gem5 executing on falcon6, pid 10934
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/blackscholes/ShortC7_200 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=32MB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/srcShort/blackscholes --options=
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb  3 2017 16:53:41
+gem5 executing on falcon6, pid 10933
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/blackscholes/ShortC6_400 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=16MB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/srcShort/blackscholes --options=
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb  3 2017 16:53:41
+gem5 executing on falcon6, pid 10923
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/blackscholes/ShortC1_400 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=512kB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/srcShort/blackscholes --options=
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb  3 2017 16:53:41
+gem5 executing on falcon6, pid 10932
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/blackscholes/ShortC6_200 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=16MB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/srcShort/blackscholes --options=
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb  3 2017 16:53:41
+gem5 executing on falcon6, pid 10928
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/blackscholes/ShortC4_200 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=4MB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/srcShort/blackscholes --options=
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb  3 2017 16:53:41
+gem5 executing on falcon6, pid 10924
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/blackscholes/ShortC2_200 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=1MB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/srcShort/blackscholes --options=
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+warn: Sockets disabled, not accepting gdb connections
+warn: Sockets disabled, not accepting gdb connections
+warn: Sockets disabled, not accepting gdb connections
+warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb  3 2017 16:53:41
+gem5 executing on falcon6, pid 10926
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/blackscholes/ShortC3_200 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=2MB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/srcShort/blackscholes --options=
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb  3 2017 16:53:41
+gem5 executing on falcon6, pid 10935
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/blackscholes/ShortC7_400 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=32MB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/srcShort/blackscholes --options=
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (warn8192:  Mbytes) does not match the address range assigned (Sockets disabled, not accepting gdb connections4096
+ Mbytes)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb  3 2017 16:53:41
+gem5 executing on falcon6, pid 10937
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/blackscholes/ShortC8_400 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=64MB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/srcShort/blackscholes --options=
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb  3 2017 16:53:41
+gem5 executing on falcon6, pid 10936
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/blackscholes/ShortC8_200 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=64MB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/srcShort/blackscholes --options=
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb  3 2017 16:53:41
+gem5 executing on falcon6, pid 10931
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/blackscholes/ShortC5_400 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=8MB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/srcShort/blackscholes --options=
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb  3 2017 16:53:41
+gem5 executing on falcon6, pid 10922
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/blackscholes/ShortC1_200 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=512kB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/srcShort/blackscholes --options=
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb  3 2017 16:53:41
+gem5 executing on falcon6, pid 10930
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/blackscholes/ShortC5_200 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=8MB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/srcShort/blackscholes --options=
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb  3 2017 16:53:41
+gem5 executing on falcon6, pid 10929
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/blackscholes/ShortC4_400 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=4MB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/srcShort/blackscholes --options=
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb  3 2017 16:53:41
+gem5 executing on falcon6, pid 10927
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/blackscholes/ShortC3_400 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=2MB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/srcShort/blackscholes --options=
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb  3 2017 16:53:41
+gem5 executing on falcon6, pid 10925
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/blackscholes/ShortC2_400 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=1MB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/srcShort/blackscholes --options=
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: Sockets disabled, not accepting gdb connections
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+warn: x86 cpuid family 0x0000: unimplemented function 7
+warn: Sockets disabled, not accepting gdb connections
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+warn: Sockets disabled, not accepting gdb connections
+warn: Sockets disabled, not accepting gdb connections
+warn: Sockets disabled, not accepting gdb connections
+warn: Sockets disabled, not accepting gdb connections
+warn: Sockets disabled, not accepting gdb connections
+warn: x86 cpuid family 0x0000: unimplemented function 7
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/srcShort/blackscholes'
+info: Increasing stack size by one page.
+warn: Sockets disabled, not accepting gdb connections
+warn: x86 cpuid family 0x0000: unimplemented function 7
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/srcShort/blackscholes'
+info: Increasing stack size by one page.
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/srcShort/blackscholes'
+info: Increasing stack size by one page.
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+warn: Sockets disabled, not accepting gdb connections
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: x86 cpuid family 0x0000: unimplemented function 7
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+warn: ignoring syscall access(...)
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/srcShort/blackscholes'
+info: Increasing stack size by one page.
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+warn: x86 cpuid family 0x0000: unimplemented function 7
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ignoring syscall access(...)
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+warn: ignoring syscall access(...)
+warn: x86 cpuid family 0x0000: unimplemented function 7
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/srcShort/blackscholes'
+info: Increasing stack size by one page.
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+warn: x86 cpuid family 0x0000: unimplemented function 7
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: x86 cpuid family 0x0000: unimplemented function 7
+warn: x86 cpuid family 0x0000: unimplemented function 7
+warn: ignoring syscall access(...)
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/srcShort/blackscholes'
+info: Increasing stack size by one page.
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/srcShort/blackscholes'
+info: Increasing stack size by one page.
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/srcShort/blackscholes'
+info: Increasing stack size by one page.
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+warn: ignoring syscall access(...)
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/srcShort/blackscholes'
+info: Increasing stack size by one page.
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+warn: x86 cpuid family 0x0000: unimplemented function 7
+warn: x86 cpuid family 0x0000: unimplemented function 7
+warn: x86 cpuid family 0x0000: unimplemented function 7
+warn: x86 cpuid family 0x0000: unimplemented function 7
+warn: x86 cpuid family 0x0000: unimplemented function 7
+warn: ignoring syscall access(...)
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+warn: x86 cpuid family 0x0000: unimplemented function 7
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/srcShort/blackscholes'
+info: Increasing stack size by one page.
+warn: ignoring syscall access(...)
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/srcShort/blackscholes'
+info: Increasing stack size by one page.
+warn: x86 cpuid family 0x0000: unimplemented function 7
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/srcShort/blackscholes'
+info: Increasing stack size by one page.
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/srcShort/blackscholes'
+info: Increasing stack size by one page.
+warn: ignoring syscall access(...)
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/srcShort/blackscholes'
+info: Increasing stack size by one page.
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/srcShort/blackscholes'
+info: Increasing stack size by one page.
+warn: ignoring syscall access(...)
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/srcShort/blackscholes'
+info: Increasing stack size by one page.
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+ERROR: Unable to open file `(null)'.
+Exiting @ tick 80344500 because target called exit()
+ERROR: Unable to open file `(null)'.
+Exiting @ tick 80344500 because target called exit()
+ERROR: Unable to open file `(null)'.
+ERROR: Unable to open file `(null)'.
+Exiting @ tick 80344500 because target called exit()
+Exiting @ tick 80344500 because target called exit()
+ERROR: Unable to open file `(null)'.
+Exiting @ tick 80344500 because target called exit()
+ERROR: Unable to open file `(null)'.
+Exiting @ tick 80344500 because target called exit()
+ERROR: Unable to open file `(null)'.
+Exiting @ tick 80344500 because target called exit()
+ERROR: Unable to open file `(null)'.
+ERROR: Unable to open file `(null)'.
+ERROR: Unable to open file `(null)'.
+ERROR: Unable to open file `(null)'.
+Exiting @ tick 80344500 because target called exit()
+Exiting @ tick 80344500 because target called exit()
+Exiting @ tick 80344500 because target called exit()
+Exiting @ tick 80344500 because target called exit()
+ERROR: Unable to open file `(null)'.
+ERROR: Unable to open file `(null)'.
+ERROR: Unable to open file `(null)'.
+Exiting @ tick 80344500 because target called exit()
+Exiting @ tick 80344500 because target called exit()
+Exiting @ tick 80344500 because target called exit()
+ERROR: Unable to open file `(null)'.
+Exiting @ tick 80344500 because target called exit()
+ERROR: Unable to open file `(null)'.
+Exiting @ tick 80344500 because target called exit()

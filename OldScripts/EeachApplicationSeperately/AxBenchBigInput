@@ -1,0 +1,113 @@
+cd ~/gem5/gem5
+OutPrefix="TOOBIG"
+echo ${OutPrefix}
+
+Config1="--cpu-type=detailed --caches --l2cache  --l1d_size=32kB --l2_size=512kB  --cacheline_size=64 --mem-size=4GB"
+Config2="--cpu-type=detailed --caches --l2cache  --l1d_size=32kB --l2_size=1MB  --cacheline_size=64  --mem-size=4GB"
+Config3="--cpu-type=detailed --caches --l2cache  --l1d_size=32kB --l2_size=2MB  --cacheline_size=64  --mem-size=4GB"
+Config4="--cpu-type=detailed --caches --l2cache  --l1d_size=32kB --l2_size=4MB  --cacheline_size=64  --mem-size=4GB"
+Config5="--cpu-type=detailed --caches --l2cache  --l1d_size=32kB --l2_size=8MB  --cacheline_size=64  --mem-size=4GB"
+Config6="--cpu-type=detailed --caches --l2cache  --l1d_size=32kB --l2_size=16MB  --cacheline_size=64  --mem-size=4GB"
+Config7="--cpu-type=detailed --caches --l2cache  --l1d_size=32kB --l2_size=32MB  --cacheline_size=64  --mem-size=4GB"
+Config8="--cpu-type=detailed --caches --l2cache  --l1d_size=32kB --l2_size=64MB  --cacheline_size=64  --mem-size=4GB"
+
+
+
+BasePath="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/"
+
+
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C1 configs/example/se.py  $Config1 -c ${BasePath}fft/src/fft --options=" 262144 " &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C2  configs/example/se.py $Config2  -c ${BasePath}fft/src/fft --options=" 262144 " &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C3 configs/example/se.py  $Config3 -c ${BasePath}fft/src/fft --options=" 262144 " &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C4  configs/example/se.py $Config4  -c ${BasePath}fft/src/fft --options=" 262144 " &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C5 configs/example/se.py  $Config5 -c ${BasePath}fft/src/fft --options=" 262144 " &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C6  configs/example/se.py $Config6  -c ${BasePath}fft/src/fft --options=" 262144 " &
+
+
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C1_400  configs/example/se.py  $Config1 -c ${BasePath}blackscholes/src/blackscholes --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/blackscholes/test.data/input/blackscholesTest_400K.data " &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C2_400  configs/example/se.py $Config2 -c ${BasePath}blackscholes/src/blackscholes --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/blackscholes/test.data/input/blackscholesTest_400K.data" &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C3_400  configs/example/se.py  $Config3 -c ${BasePath}blackscholes/src/blackscholes --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/blackscholes/test.data/input/blackscholesTest_400K.data " &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C4_400  configs/example/se.py $Config4 -c ${BasePath}blackscholes/src/blackscholes --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/blackscholes/test.data/input/blackscholesTest_400K.data" &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C5_400  configs/example/se.py  $Config5 -c ${BasePath}blackscholes/src/blackscholes --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/blackscholes/test.data/input/blackscholesTest_400K.data " &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C6_400  configs/example/se.py $Config6 -c ${BasePath}blackscholes/src/blackscholes --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/blackscholes/test.data/input/blackscholesTest_400K.data" &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C7_400  configs/example/se.py  $Config7 -c ${BasePath}blackscholes/src/blackscholes --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/blackscholes/test.data/input/blackscholesTest_400K.data " &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C8_400  configs/example/se.py $Config8 -c ${BasePath}blackscholes/src/blackscholes --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/blackscholes/test.data/input/blackscholesTest_400K.data" &
+
+uild/X86/gem5.opt  -d ${BasePath}${OutPrefix}C1_200  configs/example/se.py  $Config1 -c ${BasePath}blackscholes/src/blackscholes --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/blackscholes/test.data/input/blackscholesTest_200K.data " &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C2_200  configs/example/se.py $Config2 -c ${BasePath}blackscholes/src/blackscholes --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/blackscholes/test.data/input/blackscholesTest_200K.data" &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C3_200  configs/example/se.py  $Config3 -c ${BasePath}blackscholes/src/blackscholes --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/blackscholes/test.data/input/blackscholesTest_200K.data " &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C4_200  configs/example/se.py $Config4 -c ${BasePath}blackscholes/src/blackscholes --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/blackscholes/test.data/input/blackscholesTest_200K.data" &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C5_200  configs/example/se.py  $Config5 -c ${BasePath}blackscholes/src/blackscholes --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/blackscholes/test.data/input/blackscholesTest_200K.data " &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C6_200  configs/example/se.py $Config6 -c ${BasePath}blackscholes/src/blackscholes --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/blackscholes/test.data/input/blackscholesTest_200K.data" &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C7_200  configs/example/se.py  $Config7 -c ${BasePath}blackscholes/src/blackscholes --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/blackscholes/test.data/input/blackscholesTest_200K.data " &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C8_200  configs/example/se.py $Config8 -c ${BasePath}blackscholes/src/blackscholes --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/blackscholes/test.data/input/blackscholesTest_200K.data" &
+
+
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C1_1000K  configs/example/se.py $Config1 -c ${BasePath}inversek2j/src/inversek2j --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data " &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C2_1000K  configs/example/se.py $Config2 -c ${BasePath}inversek2j/src/inversek2j --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data" &
+build/X86/gem5.opt   -d ${BasePath}${OutPrefix}C3_1000K  configs/example/se.py $Config3 -c ${BasePath}inversek2j/src/inversek2j --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data " &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C4_1000K  configs/example/se.py $Config4 -c ${BasePath}inversek2j/src/inversek2j --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data" &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C5_1000K  configs/example/se.py $Config5 -c ${BasePath}inversek2j/src/inversek2j --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data " &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C6_1000K  configs/example/se.py $Config6 -c ${BasePath}inversek2j/src/inversek2j --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data" &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C7_1000K  configs/example/se.py $Config7 -c ${BasePath}inversek2j/src/inversek2j --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data " &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C8_1000K  configs/example/se.py $Config8 -c ${BasePath}inversek2j/src/inversek2j --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data" &
+
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C1_2000K  configs/example/se.py $Config1 -c ${BasePath}inversek2j/src/inversek2j --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_2000K.data " &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C2_2000K  configs/example/se.py $Config2 -c ${BasePath}inversek2j/src/inversek2j --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_2000K.data" &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C3_2000K  configs/example/se.py $Config3 -c ${BasePath}inversek2j/src/inversek2j --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_2000K.data " &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C4_2000K  configs/example/se.py $Config4 -c ${BasePath}inversek2j/src/inversek2j --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_2000K.data" &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C5_2000K  configs/example/se.py $Config5 -c ${BasePath}inversek2j/src/inversek2j --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_2000K.data " &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C6_2000K  configs/example/se.py $Config6 -c ${BasePath}inversek2j/src/inversek2j --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_2000K.data" &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C7_2000K  configs/example/se.py $Config7 -c ${BasePath}inversek2j/src/inversek2j --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_2000K.data " &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C8_2000K  configs/example/se.py $Config8 -c ${BasePath}inversek2j/src/inversek2j --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_2000K.data" &
+
+
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C1_1000K  configs/example/se.py  $Config1 -c ${BasePath}jmeint/src/jmeint --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/jmeint/test.data/input/jmeint_1000K.data " &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C2_1000K  configs/example/se.py $Config2 -c ${BasePath}jmeint/src/jmeint --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/jmeint/test.data/input/jmeint_1000K.data  " &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C3_1000K  configs/example/se.py  $Config3 -c ${BasePath}jmeint/src/jmeint --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/jmeint/test.data/input/jmeint_1000K.data " &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C4_1000K  configs/example/se.py $Config4 -c ${BasePath}jmeint/src/jmeint --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/jmeint/test.data/input/jmeint_1000K.data  " &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C5_1000K  configs/example/se.py  $Config5 -c ${BasePath}jmeint/src/jmeint --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/jmeint/test.data/input/jmeint_1000K.data " &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C6_1000K  configs/example/se.py $Config6 -c ${BasePath}jmeint/src/jmeint --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/jmeint/test.data/input/jmeint_1000K.data  " &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C7_1000K  configs/example/se.py  $Config7 -c ${BasePath}jmeint/src/jmeint --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/jmeint/test.data/input/jmeint_1000K.data " &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C8_1000K  configs/example/se.py $Config8 -c ${BasePath}jmeint/src/jmeint --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/jmeint/test.data/input/jmeint_1000K.data  " &
+
+
+#build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C1_2000K  configs/example/se.py  $Config1 -c ${BasePath}jmeint/src/jmeint --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/jmeint/test.data/input/jmeint_2000K.data " &
+#build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C2_2000K  configs/example/se.py $Config2 -c ${BasePath}jmeint/src/jmeint --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/jmeint/test.data/input/jmeint_2000K.data  " &
+#build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C3_2000K  configs/example/se.py  $Config3 -c ${BasePath}jmeint/src/jmeint --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/jmeint/test.data/input/jmeint_2000K.data " &
+#build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C4_2000K  configs/example/se.py $Config4 -c ${BasePath}jmeint/src/jmeint --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/jmeint/test.data/input/jmeint_2000K.data  " &
+#build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C5_2000K  configs/example/se.py  $Config5 -c ${BasePath}jmeint/src/jmeint --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/jmeint/test.data/input/jmeint_2000K.data " &
+#build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C6_2000K  configs/example/se.py $Config6 -c ${BasePath}jmeint/src/jmeint --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/jmeint/test.data/input/jmeint_2000K.data  " &
+#build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C7_2000K  configs/example/se.py  $Config7 -c ${BasePath}jmeint/src/jmeint --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/jmeint/test.data/input/jmeint_2000K.data " &
+#build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C8_2000K  configs/example/se.py $Config8 -c ${BasePath}jmeint/src/jmeint --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/jmeint/test.data/input/jmeint_2000K.data  " &
+
+
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C1  configs/example/se.py  $Config1  -c ${BasePath}jpeg/src/jpeg --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/jpeg/test.data/input/5.rgb  " &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C2  configs/example/se.py   $Config2 -c ${BasePath}jpeg/src/jpeg --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/jpeg/test.data/input/5.rgb " &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C3  configs/example/se.py  $Config3  -c ${BasePath}jpeg/src/jpeg --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/jpeg/test.data/input/5.rgb  " &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C4  configs/example/se.py   $Config4 -c ${BasePath}jpeg/src/jpeg --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/jpeg/test.data/input/5.rgb " &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C5  configs/example/se.py  $Config5  -c ${BasePath}jpeg/src/jpeg --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/jpeg/test.data/input/5.rgb  " &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C6  configs/example/se.py   $Config6 -c ${BasePath}jpeg/src/jpeg --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/jpeg/test.data/input/5.rgb " &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C7  configs/example/se.py  $Config7  -c ${BasePath}jpeg/src/jpeg --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/jpeg/test.data/input/5.rgb  " &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C8  configs/example/se.py   $Config8 -c ${BasePath}jpeg/src/jpeg --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/jpeg/test.data/input/5.rgb " &
+
+
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C1  configs/example/se.py $Config1 -c ${BasePath}kmeans/src/kmeans --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/kmeans/test.data/input/4.rgb " &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C2  configs/example/se.py $Config2 -c ${BasePath}kmeans/src/kmeans --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/kmeans/test.data/input/4.rgb " &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C3  configs/example/se.py $Config3 -c ${BasePath}kmeans/src/kmeans --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/kmeans/test.data/input/4.rgb " &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C4  configs/example/se.py $Config4 -c ${BasePath}kmeans/src/kmeans --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/kmeans/test.data/input/4.rgb " &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C5  configs/example/se.py $Config5 -c ${BasePath}kmeans/src/kmeans --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/kmeans/test.data/input/4.rgb " &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C6  configs/example/se.py $Config6 -c ${BasePath}kmeans/src/kmeans --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/kmeans/test.data/input/4.rgb " &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C7  configs/example/se.py $Config7 -c ${BasePath}kmeans/src/kmeans --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/kmeans/test.data/input/4.rgb " &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C8  configs/example/se.py $Config8 -c ${BasePath}kmeans/src/kmeans --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/kmeans/test.data/input/4.rgb " &
+
+
+
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C1  configs/example/se.py $Config1 -c ${BasePath}sobel/src/sobel --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/sobel/test.data/input/4.rgb " &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C2  configs/example/se.py $Config2 -c ${BasePath}sobel/src/sobel --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/sobel/test.data/input/4.rgb " &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C3  configs/example/se.py $Config3 -c ${BasePath}sobel/src/sobel --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/sobel/test.data/input/4.rgb " &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C4  configs/example/se.py $Config4 -c ${BasePath}sobel/src/sobel --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/sobel/test.data/input/4.rgb " &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C5  configs/example/se.py $Config5 -c ${BasePath}sobel/src/sobel --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/sobel/test.data/input/4.rgb " &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C6  configs/example/se.py $Config6 -c ${BasePath}sobel/src/sobel --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/sobel/test.data/input/4.rgb " &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C7  configs/example/se.py $Config7 -c ${BasePath}sobel/src/sobel --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/sobel/test.data/input/4.rgb " &
+build/X86/gem5.opt  -d ${BasePath}${OutPrefix}C8  configs/example/se.py $Config8 -c ${BasePath}sobel/src/sobel --options="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/sobel/test.data/input/4.rgb " &

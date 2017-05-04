@@ -1,0 +1,19 @@
+
+cd /bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications
+for f in */
+do
+	echo ${f}
+	mkdir ${f}src/1kB2kB4kB32BLOCKSIZE  ${f}src/1kB4kB8kB32BLOCKSIZE ${f}src/1kB2kB4kB64BLOCKSIZE ${f}src/1kB4kB8kB64BLOCKSIZE
+
+done
+
+cd /bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications
+#for f in */
+#do
+#	echo ${f}
+#	rm -r ${f}src/1kB2kB4kB32BLOCKSIZE 
+#	rm -r ${f}src/1kB4kB8kB32BLOCKSIZE 
+#	rm -r ${f}src/1kB2kB4kB64BLOCKSIZE 
+#	rm -r ${f}src/1kB4kB8kB64BLOCKSIZE
+
+#done

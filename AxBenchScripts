@@ -3,20 +3,21 @@ add .c_str() to file names
 add #include <cstdlib>
 
 
- build/X86/gem5.opt configs/example/se.py -c /bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/fft/src/fft --options="2048 fftOutp
+build/X86/gem5.opt  -d /bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/fft/src/32KB512Kb1MB32BLOCKSIZE  configs/example/se.py  --l1d_size=32KB --l2_size=512KB --l3_size=1MB   --cacheline_size=32 -c /bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/fft/src/fft --options="2048 /bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/fft/src/fftOutp"
+
 /bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/fft/src 
  g++  complex.cpp fourier.cpp fft.cpp -o fft
 
 run blackscholes
 
 cd /bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/blackscholes/src 
- ./blackscholes /bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/blackscholes/test.data/input/blackscholesTest_200K.data /net/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/blackscholes/test.data/output/blackscholesTest_200K_blackscholes_orig.data
+ ./blackscholes /bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/blackscholes/test.data/input/blackscholesTest_200K.data /bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/blackscholes/test.data/output/blackscholesTest_200K_blackscholes_orig.data
 
 cd /bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/src 
- ./inversek2j /bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data /net/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/output/theta_1000K_inversek2j_orig.data
+ ./inversek2j /bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data /bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/inversek2j/test.data/output/theta_1000K_inversek2j_orig.data
 
  cd /bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/jmeint/src  
-./jmeint /bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/jmeint/test.data/input/jmeint_1000K.data  /net/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/jmeint/test.data/output/jmeint_1000K_jmeint_orig.data
+./jmeint /bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/jmeint/test.data/input/jmeint_1000K.data  /bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/jmeint/test.data/output/jmeint_1000K_jmeint_orig.data
 
 
 cd /bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/jpeg/src 

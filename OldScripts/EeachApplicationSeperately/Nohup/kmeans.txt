@@ -1,0 +1,161 @@
+TOOBIG
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Jan 29 2017 20:21:01
+gem5 executing on falcon5, pid 14586
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/kmeans/TOOBIGC8 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=64MB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/src/kmeans '--options=/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/kmeans/test.data/input/4.rgb '
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+0: system.remote_gdb.listener: listening for remote gdb #0 on port 7008
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Jan 29 2017 20:21:01
+gem5 executing on falcon5, pid 14582
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/kmeans/TOOBIGC4 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=4MB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/src/kmeans '--options=/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/kmeans/test.data/input/4.rgb '
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Jan 29 2017 20:21:01
+gem5 executing on falcon5, pid 14580
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/kmeans/TOOBIGC2 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=1MB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/src/kmeans '--options=/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/kmeans/test.data/input/4.rgb '
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Jan 29 2017 20:21:01
+gem5 executing on falcon5, pid 14583
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/kmeans/TOOBIGC5 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=8MB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/src/kmeans '--options=/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/kmeans/test.data/input/4.rgb '
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Jan 29 2017 20:21:01
+gem5 executing on falcon5, pid 14585
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/kmeans/TOOBIGC7 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=32MB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/src/kmeans '--options=/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/kmeans/test.data/input/4.rgb '
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+warn: x86 cpuid family 0x0000: unimplemented function 7
+0: system.remote_gdb.listener: listening for remote gdb #0 on port 7009
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/src/kmeans'
+info: Increasing stack size by one page.
+0: system.remote_gdb.listener: listening for remote gdb #0 on port 7010
+0: system.remote_gdb.listener: listening for remote gdb #0 on port 7011
+warn: ignoring syscall access(...)
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Jan 29 2017 20:21:01
+gem5 executing on falcon5, pid 14584
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/kmeans/TOOBIGC6 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=16MB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/src/kmeans '--options=/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/kmeans/test.data/input/4.rgb '
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Jan 29 2017 20:21:01
+gem5 executing on falcon5, pid 14579
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/kmeans/TOOBIGC1 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=512kB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/src/kmeans '--options=/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/kmeans/test.data/input/4.rgb '
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Jan 29 2017 20:21:01
+gem5 executing on falcon5, pid 14581
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/kmeans/TOOBIGC3 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=2MB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBenchResults/src/kmeans '--options=/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/kmeans/test.data/input/4.rgb '
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+0: system.remote_gdb.listener: listening for remote gdb #0 on port 7012
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: x86 cpuid family 0x0000: unimplemented function 7
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+0: system.remote_gdb.listener: listening for remote gdb #0 on port 7013
+0: system.remote_gdb.listener: listening for remote gdb #0 on port 7014
+warn: x86 cpuid family 0x0000: unimplemented function 7
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/src/kmeans'
+info: Increasing stack size by one page.
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+0: system.remote_gdb.listener: listening for remote gdb #0 on port 7015
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/src/kmeans'
+info: Increasing stack size by one page.
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: x86 cpuid family 0x0000: unimplemented function 7
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/src/kmeans'
+info: Increasing stack size by one page.
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+warn: x86 cpuid family 0x0000: unimplemented function 7
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+warn: x86 cpuid family 0x0000: unimplemented function 7
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/src/kmeans'
+info: Increasing stack size by one page.
+warn: x86 cpuid family 0x0000: unimplemented function 7
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/src/kmeans'
+info: Increasing stack size by one page.
+warn: ignoring syscall access(...)
+warn: x86 cpuid family 0x0000: unimplemented function 7
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/src/kmeans'
+info: Increasing stack size by one page.
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/src/kmeans'
+info: Increasing stack size by one page.
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+Exiting @ tick 159081279500 because target called exit()
+Exiting @ tick 159081279500 because target called exit()
+Exiting @ tick 159081279500 because target called exit()
+Exiting @ tick 177182750500 because target called exit()
+Exiting @ tick 159081279500 because target called exit()
+Exiting @ tick 177338644500 because target called exit()
+Exiting @ tick 177409714000 because target called exit()
+Exiting @ tick 176908020500 because target called exit()

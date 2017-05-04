@@ -1,0 +1,46 @@
+/if22/ml2au/gem5/BetaGem
+ConvolutionScript: line 9: layer1: command not found
+ConvolutionScript: line 10: layer2: command not found
+ConvolutionScript: line 11: layer3: command not found
+/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/convolution/src/
+config 1 = --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=512kB --cacheline_size=64 --mem-size=4GB
+AlexNet
+config 2 = --cpu-type=detailed --caches --l2cache --l3cache --l1d_size=32kB --l2_size=1MB --l3_size=2MB --cacheline_size=64 --mem-size=4GB
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 24 2017 17:38:20
+gem5 started Feb  2 2017 10:50:38
+gem5 executing on falcon3, pid 19903
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/convolution/src/32kB512kB1MB64BLOCKSIZE configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=512kB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/convolution/src/convolution '--options=224 224 11 11 0 0 2 2 100 100'
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 24 2017 17:38:20
+gem5 started Feb  2 2017 10:50:38
+gem5 executing on falcon3, pid 19904
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/convolution/src/32kB1MB2MB64BLOCKSIZE configs/example/se.py --cpu-type=detailed --caches --l2cache --l3cache --l1d_size=32kB --l2_size=1MB --l3_size=2MB --cacheline_size=64 --mem-size=4GB -c /bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/convolution/src/convolution '--options=224 224 11 11 0 0 2 2 100 100'
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+0: system.remote_gdb.listener: listening for remote gdb #0 on port 7000
+0: system.remote_gdb.listener: listening for remote gdb #0 on port 7002
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+warn: x86 cpuid family 0x0000: unimplemented function 7
+warn: x86 cpuid family 0x0000: unimplemented function 7
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/convolution/src/convolution'
+info: Increasing stack size by one page.
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/convolution/src/convolution'
+info: Increasing stack size by one page.
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)

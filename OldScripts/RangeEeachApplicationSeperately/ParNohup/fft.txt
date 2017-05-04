@@ -1,0 +1,340 @@
+./Common.sh: line 3: /net/bigtemp/ml2au/AxBenchResults/Multiple16: Is a directory
+
+262144;262144;262144;262144;262144;262144;262144;262144
+/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft
+1
+--cpu-type=detailed --caches --l2cache  --l1d_size=32kB --l2_size=512kB  --cacheline_size=64 --mem-size=4GB --num-cpus=8
+2
+--cpu-type=detailed --caches --l2cache  --l1d_size=32kB --l2_size=1MB  --cacheline_size=64  --mem-size=4GB --num-cpus=8
+3
+--cpu-type=detailed --caches --l2cache  --l1d_size=32kB --l2_size=2MB  --cacheline_size=64  --mem-size=4GB --num-cpus=8
+4
+--cpu-type=detailed --caches --l2cache  --l1d_size=32kB --l2_size=4MB  --cacheline_size=64  --mem-size=4GB --num-cpus=8
+5
+--cpu-type=detailed --caches --l2cache  --l1d_size=32kB --l2_size=8MB  --cacheline_size=64  --mem-size=4GB --num-cpus=8
+6
+--cpu-type=detailed --caches --l2cache  --l1d_size=32kB --l2_size=16MB  --cacheline_size=64  --mem-size=4GB --num-cpus=8
+7
+--cpu-type=detailed --caches --l2cache  --l1d_size=32kB --l2_size=32MB  --cacheline_size=64  --mem-size=4GB --num-cpus=8
+8
+--cpu-type=detailed --caches --l2cache  --l1d_size=32kB --l2_size=64MB  --cacheline_size=64  --mem-size=4GB --num-cpus=8
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb 11 2017 09:24:38
+gem5 executing on falcon1, pid 32258
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/Multiple16/fft/NoOutIOC4 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=4MB --cacheline_size=64 --mem-size=4GB --num-cpus=8 -c '/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft' '--options=262144;262144;262144;262144;262144;262144;262144;262144'
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb 11 2017 09:24:38
+gem5 executing on falcon1, pid 32262
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/Multiple16/fft/NoOutIOC8 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=64MB --cacheline_size=64 --mem-size=4GB --num-cpus=8 -c '/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft' '--options=262144;262144;262144;262144;262144;262144;262144;262144'
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb 11 2017 09:24:38
+gem5 executing on falcon1, pid 32257
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/Multiple16/fft/NoOutIOC3 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=2MB --cacheline_size=64 --mem-size=4GB --num-cpus=8 -c '/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft' '--options=262144;262144;262144;262144;262144;262144;262144;262144'
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb 11 2017 09:24:38
+gem5 executing on falcon1, pid 32256
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/Multiple16/fft/NoOutIOC2 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=1MB --cacheline_size=64 --mem-size=4GB --num-cpus=8 -c '/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft' '--options=262144;262144;262144;262144;262144;262144;262144;262144'
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb 11 2017 09:24:38
+gem5 executing on falcon1, pid 32260
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/Multiple16/fft/NoOutIOC6 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=16MB --cacheline_size=64 --mem-size=4GB --num-cpus=8 -c '/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft' '--options=262144;262144;262144;262144;262144;262144;262144;262144'
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb 11 2017 09:24:38
+gem5 executing on falcon1, pid 32261
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/Multiple16/fft/NoOutIOC7 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=32MB --cacheline_size=64 --mem-size=4GB --num-cpus=8 -c '/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft' '--options=262144;262144;262144;262144;262144;262144;262144;262144'
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+warn: Sockets disabled, not accepting gdb connections
+warn: Sockets disabled, not accepting gdb connections
+warn: Sockets disabled, not accepting gdb connections
+warn: Sockets disabled, not accepting gdb connections
+warn: Sockets disabled, not accepting gdb connections
+warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb 11 2017 09:24:38
+gem5 executing on falcon1, pid 32259
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/Multiple16/fft/NoOutIOC5 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=8MB --cacheline_size=64 --mem-size=4GB --num-cpus=8 -c '/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft' '--options=262144;262144;262144;262144;262144;262144;262144;262144'
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jan 16 2017 16:32:23
+gem5 started Feb 11 2017 09:24:38
+gem5 executing on falcon1, pid 32255
+command line: build/X86/gem5.opt -d /bigtemp/ml2au/AxBenchResults/Multiple16/fft/NoOutIOC1 configs/example/se.py --cpu-type=detailed --caches --l2cache --l1d_size=32kB --l2_size=512kB --cacheline_size=64 --mem-size=4GB --num-cpus=8 -c '/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft;/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft' '--options=262144;262144;262144;262144;262144;262144;262144;262144'
+
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (4096 Mbytes)
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warnwarn: : Sockets disabled, not accepting gdb connectionsClockedObject: More than one power state change request encountered within the same simulation tick
+
+warn: Sockets disabled, not accepting gdb connections
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft'
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft'
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft'
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft'
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft'
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft'
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+warn: ClockedObject: More than one power state change request encountered within the same simulation tick
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft'
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/net/bigtemp/ml2au/AxBenchResults/binNoOutIO/fft'
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+info: Increasing stack size by one page.
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+warn: ignoring syscall access(...)
+Exiting @ tick 347128449500 because target called exit()
+Exiting @ tick 347510473500 because target called exit()
+Exiting @ tick 450926518500 because target called exit()
+Exiting @ tick 796312923500 because target called exit()
+Exiting @ tick 795823186500 because target called exit()
+Exiting @ tick 791401934500 because target called exit()
+Exiting @ tick 781875183500 because target called exit()
+Exiting @ tick 783577958500 because target called exit()
