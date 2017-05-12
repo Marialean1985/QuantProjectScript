@@ -1,6 +1,6 @@
 source Common.sh
 applicationName=kmeans
-toptionVar="/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/kmeans/test.data/input/4.rgb"
+toptionVar="/if22/ml2au/AxBenchCPU/axbench/applications/kmeans/test.data/input/4.rgb"
 #source /bigtemp/ml2au/scriptsForProjects/RangeSingle/PstCommon.sh
 tBinaryVar=${BinaryBasePath}/${BinaryPath}/${applicationName}${BinaryNamePostfix}
 tRangeFilePath=${RangeFilePath}/${applicationName}
@@ -29,7 +29,15 @@ for (( i=2; i<=32; i=i+2 ))
 	#echo "${!configvar}"
 	echo  optionVar  is $optionVar
 	echo binaryVar is $BinaryVar
-	build/X86/gem5.opt  -d ${OutputBasePath}/${applicationName}/${OutPrefix}C${i} configs/example/se.py   --rangeFileName=${RangeFilePathForConfig} ${Configs[$i]} -c ${BinaryVar} --options="${optionVar}"  &
+	configNumberStr=""
+        if [ 9 -gt $i ]
+		then
+			configNumberStr+="${configNumberStr}"0
+		
+	fi
+	configNumberStr+="${i}"
+	echo $configNumberStr
+	build/X86/gem5.opt  -d ${OutputBasePath}/${applicationName}/${OutPrefix}C${configNumberStr} configs/example/se.py   --rangeFileName=${RangeFilePathForConfig} ${Configs[$i]} -c ${BinaryVar} --options="${optionVar}"  &
 	
 	while [ ! -f ${RangeFilePathForConfig}_0 ]
 	do

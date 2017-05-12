@@ -1,9 +1,9 @@
 source Common.sh
 applicationName=convolution
-toptionVar="224 224 11 11 0 0 2 2 100 100"
+toptionVar="224 224 11 11 1 1 2 2 3 512"
 #source /bigtemp/ml2au/scriptsForProjects/RangeSingle/PstCommon.sh
 tBinaryVar=${BinaryBasePath}/${BinaryPath}/${applicationName}${BinaryNamePostfix}
-tRangeFilePath=${RangeFilePath}/${applicationName}
+tRangeFilePath=${RangeFilePath}/${applicationName}Alexnet
 rm -rf ${tRangeFilePath}
 mkdir -p ${tRangeFilePath}
 #for (( i=2; i<=$numOfConfig; i=i+2 )) 
@@ -38,7 +38,7 @@ for (( i=2; i<=32; i=i+2 ))
 	fi
 	configNumberStr+="${i}"
 	echo $configNumberStr
-	build/X86/gem5.opt  -d ${OutputBasePath}/${applicationName}/${OutPrefix}C${configNumberStr} configs/example/se.py    --rangeFileName=${RangeFilePathForConfig} ${Configs[$i]} -c ${BinaryVar} --options="${optionVar}"  &
+	build/X86/gem5.opt  -d ${OutputBasePath}/${applicationName}Alexnet/${OutPrefix}C${configNumberStr} configs/example/se.py    --rangeFileName=${RangeFilePathForConfig} ${Configs[$i]} -c ${BinaryVar} --options="${optionVar}"  &
 	
 	while [ ! -f ${RangeFilePathForConfig}_0 ]
 	do

@@ -6,10 +6,10 @@ echo ${OutPrefix}
 numCpu=16
 numOfConfig=32
 BinaryPath="binRangeFileeffect"
-BinaryBasePath="/bigtemp/ml2au/AxBenchResults/bin"
+BinaryBasePath="/if22/ml2au/AxBenchResults/bin"
 
-OutputBasePath="/bigtemp/ml2au/AxBenchResults/Rnage16CPUDDR3"
-RangeFilePath="/bigtemp/ml2au/NoHupToDelete/Range16CPU"
+OutputBasePath="/if22/ml2au/AxBenchResults/NewRnage16CPUDDR3"
+RangeFilePath="/if22/ml2au/NoHupToDelete/Range16CPU"
 BinaryNamePostfix="Range"
 
 

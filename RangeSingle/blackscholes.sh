@@ -1,6 +1,6 @@
 source Common.sh
 applicationName=blackscholes
-toptionVar=/bigtemp/ml2au/AxBench/AxBenchCPU/axbench/applications/blackscholes/test.data/input/blackscholesTest_400K.data
+toptionVar=/if22/ml2au/AxBenchCPU/axbench/applications/blackscholes/test.data/input/blackscholesTest_400K.data
 #source /bigtemp/ml2au/scriptsForProjects/RangeSingle/PstCommon.sh
 tBinaryVar=${BinaryBasePath}/${BinaryPath}/${applicationName}${BinaryNamePostfix}
 tRangeFilePath=${RangeFilePath}/${applicationName}
@@ -18,7 +18,7 @@ for (( i=2; i<=32; i=i+2 ))
 	variableSizeVar=" 32 32 1"
 	optionVar+="${variableSizeVar}"
 	BinaryVar=${tBinaryVar}
-	for (( c=1; c<$numCpu; c++ ))
+	for  (( c=1; c<$numCpu; c++ ))
 		do  
 		optionVar+=";${toptionVar} "
 		optionVar+="${RangeFilePathForConfig}_${c}"
@@ -29,19 +29,28 @@ for (( i=2; i<=32; i=i+2 ))
 	#echo "${!configvar}"
 	echo  optionVar  is $optionVar
 	echo binaryVar is $BinaryVar
-	build/X86/gem5.opt  -d ${OutputBasePath}/${applicationName}/${OutPrefix}C${i} configs/example/se.py   --rangeFileName=${RangeFilePathForConfig} ${Configs[$i]} -c ${BinaryVar} --options="${optionVar}"  &
+	configNumberStr=""
+        if [ 9 -gt $i ]
+	then
+		configNumberStr+="0"
+	fi
+	configNumberStr+="${i}"
+	echo $configNumberStr
+
+	build/X86/gem5.opt  -d ${OutputBasePath}/${applicationName}/${OutPrefix}C${configNumberStr} configs/example/se.py   --rangeFileName=${RangeFilePathForConfig} ${Configs[$i]} -c ${BinaryVar} --options="${optionVar}"  &
 	
 	while [ ! -f ${RangeFilePathForConfig}_0 ]
 	do
 		sleep 2
 	done
-done
+done 
+
 
 
 : <<'END'
 
 source Common.sh
-tBinaryVar=${BinaryBasePath}/${BinaryPath}/blackscholes${BinaryNamePostfix}
+itBinaryVar=${BinaryBasePath}/${BinaryPath}/blackscholes${BinaryNamePostfix}
 tRangeFilePath=${RangeFilePath}/blackscholes
 mkdir -p ${tRangeFilePath}
 
