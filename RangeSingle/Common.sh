@@ -8,8 +8,8 @@ numOfConfig=32
 BinaryPath="binRangeFileeffect"
 BinaryBasePath="/if22/ml2au/AxBenchResults/bin"
 
-OutputBasePath="/if22/ml2au/AxBenchResults/NewRnage16CPUDDR3"
-RangeFilePath="/if22/ml2au/NoHupToDelete/Range16CPU"
+OutputBasePath="/if22/ml2au/AxBenchResults/L1_DConversion16CPUDDR3"
+RangeFilePath="/if22/ml2au/NoHupToDelete/L1_DRange16CPU"
 BinaryNamePostfix="Range"
 
 
@@ -25,7 +25,7 @@ for nmbBits in {1..32}
 	reducedVarSize1reducedVarSize1ar="S{nmbBits}"
 	#Configs[$nmbBits]="--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64 --reducedVarSize1=${nmbBits} --mem-size=${memSizeVar} --num-cpus=${numCpu}"	
 	#Configs[$nmbBits]=" --mem-type=LPDDR3_1600_x32 --caches --l2cache --l1d_size=32kB --l2_size=256kB  --maxinsts=500000000 --cpu-type=detailed   --warmup-insts=100000  --reducedVarSize1=${nmbBits} --mem-size=${memSizeVar} --num-cpus=${numCpu}"	
-	Configs[$nmbBits]=" --mem-type=DDR3_1600_x64  --caches --l2cache --l1d_size=32kB --l2_size=256kB  --l3cache  --l3_size=8MB --maxinsts=500000000 --cpu-type=detailed   --warmup-insts=100000  --reducedVarSize1=${nmbBits} --mem-size=${memSizeVar} --num-cpus=${numCpu}"		
+	Configs[$nmbBits]=" --mem-type=DDR3_1600_x64 --ConversionLocation=L1_D --caches --l2cache --l1d_size=32kB --l2_size=256kB  --l3cache  --l3_size=8MB --maxinsts=500000000 --cpu-type=detailed   --warmup-insts=100000  --reducedVarSize1=${nmbBits} --mem-size=${memSizeVar} --num-cpus=${numCpu}"		
 	echo "${Configs[$nmbBits]}"
 done	
 echo $Config15
