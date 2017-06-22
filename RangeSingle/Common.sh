@@ -1,15 +1,15 @@
 cd ~/gem5/UndertestBetaGemv1
 
 #OutPrefix="Short"
-
+echo $HOSTNAME
 echo ${OutPrefix}
-numCpu=16
+numCpu=4
 numOfConfig=32
 BinaryPath="binRangeFileeffect"
 BinaryBasePath="/if22/ml2au/AxBenchResults/bin"
 
-OutputBasePath="/if22/ml2au/AxBenchResults/L1_DConversion16CPUDDR3"
-RangeFilePath="/if22/ml2au/NoHupToDelete/L1_DRange16CPU"
+OutputBasePath="/if22/ml2au/AxBenchResults/L2_20Cycle_Prefetch4CPUDDR3"
+RangeFilePath="/if22/ml2au/NoHupToDelete/L2_20Cycle_Prefetch4CPU"
 BinaryNamePostfix="Range"
 
 
@@ -18,14 +18,18 @@ mkdir -p ${OutputBasePath}
 OutPrefix="RangMultiple"
 #TODO: change it back to 4GB
 #memSizeVar="4GB"
+#--ConversionLocation=L2  --ConversionDelay=10
+#--ConversionLocation=L1_D
+#--L1Prefetcher
 memSizeVar="8GB"
+#--mem-channels=2
 
 for nmbBits in {1..32}
 	do
 	reducedVarSize1reducedVarSize1ar="S{nmbBits}"
 	#Configs[$nmbBits]="--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64 --reducedVarSize1=${nmbBits} --mem-size=${memSizeVar} --num-cpus=${numCpu}"	
 	#Configs[$nmbBits]=" --mem-type=LPDDR3_1600_x32 --caches --l2cache --l1d_size=32kB --l2_size=256kB  --maxinsts=500000000 --cpu-type=detailed   --warmup-insts=100000  --reducedVarSize1=${nmbBits} --mem-size=${memSizeVar} --num-cpus=${numCpu}"	
-	Configs[$nmbBits]=" --mem-type=DDR3_1600_x64 --ConversionLocation=L1_D --caches --l2cache --l1d_size=32kB --l2_size=256kB  --l3cache  --l3_size=8MB --maxinsts=500000000 --cpu-type=detailed   --warmup-insts=100000  --reducedVarSize1=${nmbBits} --mem-size=${memSizeVar} --num-cpus=${numCpu}"		
+	Configs[$nmbBits]=" --mem-type=DDR3_1600_x64 --ConversionLocation=L2 --mem-channels=2   --ConversionDelay=1  --caches --l2cache --l1d_size=32kB --l2_size=256kB  --l3cache  --l3_size=8MB --maxinsts=500000000 --cpu-type=detailed   --warmup-insts=100000  --reducedVarSize1=${nmbBits} --mem-size=${memSizeVar} --num-cpus=${numCpu}"		
 	echo "${Configs[$nmbBits]}"
 done	
 echo $Config15
