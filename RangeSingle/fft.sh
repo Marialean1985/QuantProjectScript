@@ -5,6 +5,7 @@ rm -rf ${tRangeFilePath}
 mkdir -p ${tRangeFilePath}
 
 toptionVar="262144" 
+#toptionVar="2048" 
 for (( i=2; i<=$numOfConfig; i=i+2 )) 
 	do
 	echo configuration number $i	

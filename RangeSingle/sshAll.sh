@@ -1,12 +1,14 @@
 #
-PoastFixNohupPath=latecy10
+PoastFixNohupPath=4core
 scriptdir=/if22/ml2au/scriptsForProjects/RangeSingle
+NohupDir=/bigtemp/ml2au/NoHupToDelete/
 :<< END
 echo "shift0"
 ssh ml2au@shiftlab0.cs.virginia.edu cd ${scriptdir}; nohup bash  fft.sh >/if22/ml2au/NoHupToDelete/latecy10fftonshift0.txt
 END
 echo "shift1"
-ssh ml2au@shiftlab1.cs.virginia.edu bash /if22/ml2au/scriptsForProjects/RangeSingle/sshblackscholes.sh ${scriptdir} ${PoastFixNohupPath}
+nohup bash sshblackscholes.sh  ${scriptdir} ${PoastFixNohupPath} ${NohupDir} >${NohupDir}SshNoup.txt
+
 echo "end of shift1"
 :<< END
 echo "shift2"
