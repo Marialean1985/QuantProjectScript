@@ -3,15 +3,32 @@ cd ~/gem5/UndertestBetaGemv1
 #OutPrefix="Short"
 echo $HOSTNAME
 echo ${OutPrefix}
-numCpu=4
-numOfConfig=32
+#numCpu=4
+#numOfConfig=32
+#numOfConfig=10
+numOfConfig=10
 BinaryPath="binRangeFileeffect"
-BinaryBasePath="/if22/ml2au/AxBenchResults/bin"
+BinaryBasePath="/zf14/ml2au/AxBenchResults/bin"
 
-OutputBasePath="/bigtemp/ml2au/AxBenchResults/TestFFTEnergyL2_5Cycle_4CPU2Ch"
-RangeFilePath="/bigtemp/ml2au/NoHupToDelete/TestFFTEnergyL2_5Cycle_4CPU2Ch"
+#OutputBasePath="/bigtemp/ml2au/AxBenchResults/L2_5Cycle_8CPU"
+#OutputBasePath="/bigtemp/ml2au/AxBenchResults/L2_5Cycle_4CPU"
+#OutputBasePath="/bigtemp/ml2au/AxBenchResults/L2_5Cycle_8CPU_16MBL3"
+#OutputBasePath="/bigtemp/ml2au/AxBenchResults/L1_1Cycle_8CPU_32MBL3"
+OutputBasePath="/bigtemp/ml2au/AxBenchResults/L1_1Cycle_16CPU_32MBL3"
+#OutputBasePath="/bigtemp/ml2au/AxBenchResults/L2_5Cycle_16CPU_32MBL3"
+#OutputBasePath="/bigtemp/ml2au/AxBenchResults/L2_5Cycle_16CPU"
+#OutputBasePath="/bigtemp/ml2au/AxBenchResults/SenseOnNumOfCores"
+#RangeFilePath="/bigtemp/ml2au/NoHupToDelete/L2_5Cycle_4CPU"
+#RangeFilePath="/bigtemp/ml2au/NoHupToDelete/L2_5Cycle_8CPU"
+#RangeFilePath="/bigtemp/ml2au/NoHupToDelete/L2_5Cycle_8CPU_16MBL3"
+#RangeFilePath="/bigtemp/ml2au/NoHupToDelete/L2_5Cycle_16CPU_32ML3"
+#RangeFilePath="/bigtemp/ml2au/NoHupToDelete/L1_1Cycle_8CPU_32ML3"
+RangeFilePath="/bigtemp/ml2au/NoHupToDelete/L1_1Cycle_16CPU_32ML3"
+#RangeFilePath="/bigtemp/ml2au/NoHupToDelete/L2_5Cycle_16CPU"
+#RangeFilePath="/bigtemp/ml2au/NoHupToDelete/SenseOnNumOfCores"
 BinaryNamePostfix="Range"
-
+StepConfig=1
+StartConfig=1
 
 mkdir -p ${RangeFilePath}
 mkdir -p ${OutputBasePath}
@@ -23,51 +40,76 @@ OutPrefix="RangMultiple"
 #--L1Prefetcher
 memSizeVar="8GB"
 #--mem-channels=2
-
-for nmbBits in {1..32}
+#:<<'END'
+CoreArr=(4 8 16 32 )
+conversionDelayArray=( 1 3 5 15 20 50 100 200 500 )
+#NumberOFCoresArray=( "${CoreArr[@]}"  "${CoreArr[@]}" )
+nmbBits=6
+counter=1
+Convdelay=5
+:<<'END'
+for CoreNumber in "${CoreArr[@]}"
+        do
+        reducedVarSize1reducedVarSize1ar="S{nmbBits}"
+	numberOFCoresArray[$counter]=$CoreNumber
+	numCpu=$CoreNumber
+	echo "counter is " $counter
+        #Configs[$nmbBits]="--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64 --reducedVarSize1=${nmbBits} --mem-size=${memSizeVar} --num-cpus=${numCpu}"     
+        #Configs[$nmbBits]=" --mem-type=LPDDR3_1600_x32 --caches --l2cache --l1d_size=32kB --l2_size=256kB  --maxinsts=500000000 --cpu-type=detailed   --warmup-insts=100000  --reducedVarSize1=${nmbBits} --mem-size=${memSizeVar} --num-cpus=${numCpu}"       
+        Configs[$counter]=" --mem-type=DDR3_1600_x64 --ConversionLocation=L2 --mem-channels=2   --ConversionDelay=${Convdelay}  --caches --l2cache --l1d_size=32kB --l2_size=256kB  --l3cache  --l3_size=8MB --maxinsts=500000000 --cpu-type=detailed   --warmup-insts=100000  --reducedVarSize1=${nmbBits} --mem-size=${memSizeVar} --num-cpus=${numCpu}"
+        echo "${Configs[$counter]}"
+	echo "${numberOFCoresArray[$counter]}"
+	((counter++))
+	numberOFCoresArray[$counter]=$CoreNumber
+        Configs[$counter]=" --mem-type=DDR3_1600_x64 --ConversionLocation=L2 --mem-channels=2   --ConversionDelay=${Convdelay}  --caches --l2cache --l1d_size=32kB --l2_size=256kB  --l3cache  --l3_size=8MB --maxinsts=500000000 --cpu-type=detailed   --warmup-insts=100000  --reducedVarSize1=32  --mem-size=${memSizeVar} --num-cpus=${numCpu}"
+        echo "${Configs[$counter]}"
+	echo "${numberOFCoresArray[$counter]}"
+        ((counter++))
+        echo "counter is " $counter
+done
+ ((counter--))
+numOfConfig=$counter
+echo $numOfConfig
+END
+:<<'END'
+numCpu=4
+for Convdelay in "${conversionDelayArray[@]}"
 	do
+	
 	reducedVarSize1reducedVarSize1ar="S{nmbBits}"
 	#Configs[$nmbBits]="--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64 --reducedVarSize1=${nmbBits} --mem-size=${memSizeVar} --num-cpus=${numCpu}"	
 	#Configs[$nmbBits]=" --mem-type=LPDDR3_1600_x32 --caches --l2cache --l1d_size=32kB --l2_size=256kB  --maxinsts=500000000 --cpu-type=detailed   --warmup-insts=100000  --reducedVarSize1=${nmbBits} --mem-size=${memSizeVar} --num-cpus=${numCpu}"	
-	Configs[$nmbBits]=" --mem-type=DDR3_1600_x64 --ConversionLocation=L2 --mem-channels=2   --ConversionDelay=5  --caches --l2cache --l1d_size=32kB --l2_size=256kB  --l3cache  --l3_size=8MB --maxinsts=500000000 --cpu-type=detailed   --warmup-insts=100000  --reducedVarSize1=${nmbBits} --mem-size=${memSizeVar} --num-cpus=${numCpu}"		
+	Configs[$counter]=" --mem-type=DDR3_1600_x64 --ConversionLocation=L2 --mem-channels=2   --ConversionDelay=${Convdelay}  --caches --l2cache --l1d_size=32kB --l2_size=256kB  --l3cache  --l3_size=8MB --maxinsts=500000000 --cpu-type=detailed   --warmup-insts=100000  --reducedVarSize1=${nmbBits} --mem-size=${memSizeVar} --num-cpus=${numCpu}"		
+	NumberOFCoresArray[$counter]=$numCpu
+	echo "counter is " $counter
+	echo "${Configs[$counter]}"
+	((counter++))
+	echo "counter is " $counter
+done	
+	NumberOFCoresArray[$counter]=$numCpu
+	Configs[$counter]=" --mem-type=DDR3_1600_x64 --ConversionLocation=L2 --mem-channels=2   --ConversionDelay=0  --caches --l2cache --l1d_size=32kB --l2_size=256kB  --l3cache  --l3_size=8MB --maxinsts=500000000 --cpu-type=detailed   --warmup-insts=100000  --reducedVarSize1=32 --mem-size=${memSizeVar} --num-cpus=${numCpu}"		
+	echo "${Configs[$counter]}"
+END
+#:<<'END'
+numOfConfig=32
+StepConfig=2
+StartConfig=2
+numCpu=16
+#runNum=1
+L3Size=32MB
+#L3Delay=66
+L3Delay=58
+#L3Delay=43
+#L3Delay=36
+Convdelay=1
+AddMaxInstr="--maxinsts=500000000"
+for nmbBits in {1..32}
+	do
+	reducedVarSize1reducedVarSize1ar="S{nmbBits}"
+	NumberOFCoresArray[$nmbBits]=$numCpu
+	#Configs[$nmbBits]="--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64 --reducedVarSize1=${nmbBits} --mem-size=${memSizeVar} --num-cpus=${numCpu}"	
+	#Configs[$nmbBits]=" --mem-type=LPDDR3_1600_x32 --caches --l2cache --l1d_size=32kB --l2_size=256kB  --maxinsts=500000000 --cpu-type=detailed   --warmup-insts=100000  --reducedVarSize1=${nmbBits} --mem-size=${memSizeVar} --num-cpus=${numCpu}"	
+	Configs[$nmbBits]=" --mem-type=DDR3_1600_x64 --ConversionLocation=L1  --mem-channels=2   --ConversionDelay=${Convdelay}  --caches --l2cache --l1d_size=32kB --l2_size=256kB  --l3cache  --l3_size=${L3Size} --L3Latency=${L3Delay}  ${AddMaxInstr} --cpu-type=detailed   --warmup-insts=100000  --reducedVarSize1=${nmbBits} --mem-size=${memSizeVar} --num-cpus=${numCpu}"		
 	echo "${Configs[$nmbBits]}"
 done	
-echo $Config15
-: <<'END'
-Config1="--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64 --ratio=4 --mem-size=${memSizeVar} --num-cpus=${numCpu}"
-Config2="--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache  --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64 --ratio=3.55 --mem-size=${memSizeVar} --num-cpus=${numCpu}"
-Config3="--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64  --ratio=3.2 --mem-size=${memSizeVar} --num-cpus=${numCpu}"
-Config4="--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64 --ratio=2.9  --mem-size=${memSizeVar} --num-cpus=${numCpu}"
-Config5="--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64  --ratio=2.66 --mem-size=${memSizeVar} --num-cpus=${numCpu}"
-Config6="--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64  --ratio=2.46 --mem-size=${memSizeVar} --num-cpus=${numCpu}"
-Config7="--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64  --ratio=2.28 --mem-size=${memSizeVar} --num-cpus=${numCpu}"
-Config8="--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64  --ratio=2.13 --mem-size=${memSizeVar} --num-cpus=${numCpu}"
-Config9="--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64  --ratio=2 --mem-size=${memSizeVar} --num-cpus=${numCpu}"
-Config10="--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64  --ratio=1.77 --mem-size=${memSizeVar} --num-cpus=${numCpu}"
-Config11="--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64  --ratio=1.68 --mem-size=${memSizeVar} --num-cpus=${numCpu}"
-Config12="--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64  --ratio=1.6 --mem-size=${memSizeVar} --num-cpus=${numCpu}"
-Config13="--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64  --ratio=1.52 --mem-size=${memSizeVar} --num-cpus=${numCpu}"
-Config14="--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64  --ratio=1.45 --mem-size=${memSizeVar} --num-cpus=${numCpu}"
-Config15="--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64  --ratio=1.39 --mem-size=${memSizeVar} --num-cpus=${numCpu}"
-Config16="--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64  --ratio=1.33 --mem-size=${memSizeVar} --num-cpus=${numCpu}"
-Config17="--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64  --ratio=1.28 --mem-size=${memSizeVar} --num-cpus=${numCpu}"
-Config18="--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64  --ratio=1.18 --mem-size=${memSizeVar} --num-cpus=${numCpu}"
-Config19="--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64  --ratio=1.14 --mem-size=${memSizeVar} --num-cpus=${numCpu}"
-Config20="--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64  --ratio=1.10 --mem-size=${memSizeVar} --num-cpus=${numCpu}"
-Config21="--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64  --ratio=1.06 --mem-size=${memSizeVar} --num-cpus=${numCpu}"
-Config22="--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64  --ratio=1.03 --mem-size=${memSizeVar} --num-cpus=${numCpu}"
-Config23="--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=256kB --l3_size=2MB --cacheline_size=64  --ratio=1 --mem-size=${memSizeVar} --num-cpus=${numCpu}"
-END
-
-
-#Config1="--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache  --l1d_size=32kB --l2_size=512kB --l3_size=1MB --cacheline_size=64 --mem-size=${memSizeVar} --num-cpus=${numCpu}"
-#Config2="--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=1MB --l3_size=2MB --cacheline_size=64  --mem-size=${memSizeVar} --num-cpus=${numCpu}"
-#Config3="--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=2MB  --l3_size=4MB --cacheline_size=64  --mem-size=${memSizeVar} --num-cpus=${numCpu}"
-#Config4="--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=4MB --l3_size=8MB --cacheline_size=64  --mem-size=${memSizeVar} --num-cpus=${numCpu}"
-#Config5="--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=8MB  --l3_size=16MB --cacheline_size=64  --mem-size=${memSizeVar} --num-cpus=${numCpu}"
-#Config6="--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=16MB  --l3_size=32MB --cacheline_size=64  --mem-size=${memSizeVar} --num-cpus=${numCpu}"
-#Config7="--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=32MB  --l3_size=64MB --cacheline_size=64  --mem-size=${memSizeVar} --num-cpus=${numCpu}"
-#Config8="--cpu-type=detailed --mem-type=DDR3_1600_x64 --caches --l2cache --l3cache --l1d_size=32kB --l2_size=64MB  --l3_size=128MB --cacheline_size=64  --mem-size=${memSizeVar} --num-cpus=${numCpu}"
-
-
-#choose from --mem-type='GDDR5_4000_x64', 'HMC_2500_x32', 'DRAMCtrl', 'HBM_1000_4H_x128', 'LPDDR2_S4_1066_x32', 'LPDDR3_1600_x32', 'DDR3_1600_x64', 'DDR3_2133_x64', 'HBM_1000_4H_x64', 'SimpleMemory', 'DDR4_2400_x64', 'WideIO_200_x128')
+#END

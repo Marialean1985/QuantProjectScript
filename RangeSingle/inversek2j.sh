@@ -1,13 +1,13 @@
 source Common.sh
 applicationName=inversek2j
-toptionVar="/if22/ml2au/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data"
+toptionVar="/zf14/ml2au/AxBenchCPU/axbench/applications/inversek2j/test.data/input/theta_1000K.data"
 #source /bigtemp/ml2au/scriptsForProjects/RangeSingle/PstCommon.sh
 tBinaryVar=${BinaryBasePath}/${BinaryPath}/${applicationName}${BinaryNamePostfix}
 tRangeFilePath=${RangeFilePath}/${applicationName}
 rm -rf ${tRangeFilePath}
 mkdir -p ${tRangeFilePath}
 #for (( i=2; i<=$numOfConfig; i=i+2 )) 
-for (( i=2; i<=32; i=i+2 ))
+for ((i=$StartConfig; i<=$numOfConfig; i=i+$StepConfig ))
 	do
 	echo configuration number $i	
 	RangeFilePathForConfig=${tRangeFilePath}/${i}.txt
@@ -18,6 +18,7 @@ for (( i=2; i<=32; i=i+2 ))
 	variableSizeVar=" 32 32 1"
 	optionVar+="${variableSizeVar}"
 	BinaryVar=${tBinaryVar}
+	numCpu=NumberOFCoresArray[$i]
 	for (( c=1; c<$numCpu; c++ ))
 		do  
 		optionVar+=";${toptionVar} "
@@ -30,7 +31,7 @@ for (( i=2; i<=32; i=i+2 ))
 	echo  optionVar  is $optionVar
 	echo binaryVar is $BinaryVar
 	configNumberStr=""
-        if [ 9 -gt $i ]
+        if [ 10 -gt $i ]
 		then
 			configNumberStr+="${configNumberStr}"0
 		
